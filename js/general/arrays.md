@@ -39,6 +39,8 @@ Map {
 ```
 The great thing about a `Map` object is that it preserves data-types - that is to say `aCount.get(5)` will return `3` but `aCount.get("5")` will return `undefined`. It also allows for **any** value / type to act as a key meaning this solution will also work with an array of objects.
 
+[stackoverflow](https://stackoverflow.com/a/35101824)
+
 
 
 #### Change all values in an array to a specific value
