@@ -1,4 +1,4 @@
-## Add cooment in React JSX
+## Add coment in React JSX
 
 You can’t just use HTML comments inside of JSX because it thinks they are real DOM Nodes:
 
