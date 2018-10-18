@@ -23,7 +23,7 @@ The mantissa has 53 bits. You can use the exponent to get higher integers, but t
 
 <small> * The Math.pow() function returns the base to the exponent power, that is, baseexponent.</small>
 
-Rounding effects during the addition make things unpredictable for odd increments (+1 versus +3). The actual representation is a bit more complicated [1], but this explanation should help you understand the basic problem.
+Rounding effects during the addition make things unpredictable for odd increments (+1 versus +3). The actual representation is a bit more complicated, but this explanation should help you understand the basic problem.
 
 ### Working with large integers in JavaScript
 
