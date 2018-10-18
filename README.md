@@ -11,11 +11,13 @@ This is a collection of my notes from different things I've learnt while program
 - [De Morgan's Law](js/algebra/de-morgans-laws.md)
 
 ### Framework
-#### React 
+#### React
 - [Comments](js/framework/react/comments.md)
 
 
 #### General
 - [Helpful tools when working with arrays](js/general/arrays.md)
+- [Floating Point Numbers](js/general/floating_numbers.md)
+- [Working with large integers in JavaScript](js/general/large_integers.md)
 
 Based on the dev-notes from [daisymarie128](https://github.com/daisymarie128/dev-notes)
