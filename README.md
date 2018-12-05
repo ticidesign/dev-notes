@@ -2,9 +2,12 @@
 This is a collection of my notes from different things I've learnt while programming.
 
 ## Categories
+- [Bash](#bash)
 - [Javascript](#javascript)
 
 
+## Bash
+- [Bash Script](bash/bash_script.md)
 
 ## Javascript
 ### Algebra
@@ -13,6 +16,7 @@ This is a collection of my notes from different things I've learnt while program
 ### Framework
 #### React
 - [Comments](js/framework/react/comments.md)
+- [Super(props)](js/framework/react/super_props.md)
 
 
 #### General
