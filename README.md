@@ -10,10 +10,15 @@ This is a collection of my notes from different things I've learnt while program
 - [Bash Script](bash/bash_script.md)
 
 ## Javascript
+
+### Algorithm
+- [Dijkstra's algorithm](js/algorithm/dijkstra.md)
+
 ### Algebra
 - [De Morgan's Law](js/algebra/de-morgans-laws.md)
 
 ### Framework
+
 #### React
 - [Comments](js/framework/react/comments.md)
 - [Super(props)](js/framework/react/super_props.md)
