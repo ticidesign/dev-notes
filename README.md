@@ -17,6 +17,10 @@ This is a collection of my notes from different things I've learnt while program
 ### Algebra
 - [De Morgan's Law](js/algebra/de-morgans-laws.md)
 
+### ES6
+- [Promises](js/es6/promises.md)
+- [Use Strict Mode](js/es6/use_strict.md)
+
 ### Framework
 
 #### React
