@@ -23,6 +23,10 @@ This is a collection of my notes from different things I've learnt while program
 
 ### Framework
 
+### Functions
+- [Arguments](js/functions/arguments.md)
+- [Point-free Style](js/functions/point-free.md)
+
 #### React
 - [Comments](js/framework/react/comments.md)
 - [Super(props)](js/framework/react/super_props.md)
