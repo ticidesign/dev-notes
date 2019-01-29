@@ -33,8 +33,16 @@ This is a collection of my notes from different things I've learnt while program
 
 
 #### General
+- [!! Operator](js/general/not_not_operator.md)
 - [Helpful tools when working with arrays](js/general/arrays.md)
 - [Floating Point Numbers](js/general/floating_numbers.md)
 - [Working with large integers in JavaScript](js/general/large_integers.md)
+
+## Servers
+- [File Space Usage](server/file_space_usage.md)
+- [inode](server/inode.md)
+
+## VSCODE
+- [Shortcuts](vscode/shortcuts.md)
 
 Based on the dev-notes from [daisymarie128](https://github.com/daisymarie128/dev-notes)
