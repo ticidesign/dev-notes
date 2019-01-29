@@ -4,6 +4,7 @@
 
 *Remember it by "bang, bang you're boolean"*
 
+
 It’s all about “type coercion”, which is fancy words for converting a value from one type to another.
 A horribly obscure way to do a type conversion.
 `!` is NOT.
@@ -46,3 +47,5 @@ More examples:
 			!!{} === true  // an (empty) object is truthy
 			!![] === true  // an (empty) array is truthy; PHP programmers beware!
 ```
+
+You could write `Boolean(req.session.keystoneItemId)` instead which is more idiot proof.
