@@ -38,24 +38,6 @@ https://github.com/jwilm/alacritty
 CMD + SHIFT + 5 - video capture
 
 
-## VSCODE
-https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf
-
-CMD + FN + F2 - select all instance and give you a cursor to edit
-CMD + Option + Arrow Key up or down - select per line
-OPTION + SHIFT + Y -
-CMD + K + U - uppercase
-CMD + K + L - lowercase
-⌘K ⌘0 / ⌘K ⌘J Fold/unfold all regions
-⌘K ⌘2 / ⌘K ⌘J Fold/unfold all regions with
-⌥⌘[ / ⌥⌘] Fold/unfold region
-⌘J Toogle Terminal
-
-Toogle render whitespaces
-"workbench.editor.enablePreview": false,
-
-⌥ = FN
-⌘ = CMD
 
 
 HyperSwitch

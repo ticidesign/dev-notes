@@ -4,6 +4,8 @@ This is a collection of my notes from different things I've learnt while program
 ## Categories
 - [Bash](#bash)
 - [Javascript](#javascript)
+- [Server](#server)
+- [VSCode](VSCode)
 
 
 ## Bash
@@ -13,6 +15,9 @@ This is a collection of my notes from different things I've learnt while program
 
 ### Algorithm
 - [Dijkstra's algorithm](js/algorithm/dijkstra.md)
+
+### Browser API
+- [File Reader API](browser_api/filereader.md)
 
 ### Algebra
 - [De Morgan's Law](js/algebra/de-morgans-laws.md)
@@ -39,10 +44,11 @@ This is a collection of my notes from different things I've learnt while program
 - [Working with large integers in JavaScript](js/general/large_integers.md)
 
 ## Servers
+- [Ubuntu setup with NGINX http/2 and letsencrypt](server/settingup_ubuntu.md)
 - [File Space Usage](server/file_space_usage.md)
 - [inode](server/inode.md)
 
-## VSCODE
+## VSCode
 - [Shortcuts](vscode/shortcuts.md)
 
 Based on the dev-notes from [daisymarie128](https://github.com/daisymarie128/dev-notes)
