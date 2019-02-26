@@ -3,6 +3,7 @@ This is a collection of my notes from different things I've learnt while program
 
 ## Categories
 - [Bash](#bash)
+- [Database](#db)
 - [Javascript](#javascript)
 - [Server](#server)
 - [VSCode](VSCode)
@@ -10,6 +11,9 @@ This is a collection of my notes from different things I've learnt while program
 
 ## Bash
 - [Bash Script](bash/bash_script.md)
+
+## Database
+- [Postgres](db/postgres.md)
 
 ## Javascript
 
