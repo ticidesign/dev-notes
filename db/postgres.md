@@ -106,7 +106,7 @@ Uses [mosql](https://github.com/stripe/mosql) MongoDB → PostgreSQL streaming r
 
 Command line to import Jerrick Media Magazine to Vocal Next
 ```sh
-mosql -c 20190225-jerrick-media-magazine-MoSQL.yaml --sql postgres://localhost/vocal_next --mongo mongodb://localhost/jerrick-media-magazine
+mosql -c 20190225-jerrick-media-magazine-MoSQL.yaml --sql postgres://localhost/vocal_next --mongo mongodb://localhost/jerrick-media-magazine --only-db jerrick-media-magazine
 ```
 
 ## Postgres Client
