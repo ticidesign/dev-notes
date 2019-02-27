@@ -1,10 +1,5 @@
 ## VSCode Short-cuts
 
-option- = OPTION
-cmd- = CMD
-^ = CTRL
-⇧ = SHIFT
-
 option - shift - Y 	 ?
 
 `cmd-K U`  													Change to uppercase
