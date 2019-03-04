@@ -1,6 +1,11 @@
+# General Notes
+
+Type _doc.new_ or _sheet.new_ into the URL bar and you will have a new google doc or a new google sheet
+
+
 *OSX*
 - `cmd-shift-5`: screen capture / recording
-- licecap: create high quality gifs of the screen
+- [licecap](https://www.cockos.com/licecap/): create high quality gifs of the screen
 
 - Window management:
  - Moom: Manage window sizes and positions: $10

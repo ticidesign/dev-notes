@@ -113,3 +113,54 @@ mosql -c 20190225-jerrick-media-magazine-MoSQL.yaml --sql postgres://localhost/v
 
 - [Postico]
 - [SQLPro for Postgres](https://macpostgresclient.com)
+
+## Queries Examples
+
+Total impression per post
+
+```sql
+EXPLAIN ANALYSE
+SELECT
+ SUM (impressionvalue) AS totalEarnings
+FROM
+ postimpressions
+WHERE
+ post = '59199bc40924a116d41e2f23';
+```
+
+Total number of posts
+
+```sql
+SELECT
+	post,
+	count(post)
+FROM postimpressions
+GROUP BY post
+ORDER BY count(post) desc
+LIMIT 10;
+```
+
+Total impression per author
+
+```sql
+SELECT
+  author,
+  SUM (impressionvalue) AS totalEarnings
+FROM postimpressions
+GROUP BY author
+ORDER BY totalEarnings desc
+LIMIT 10;
+```
+
+Author Monthly Earnings
+
+```sql
+SELECT
+	author,
+	TO_CHAR(createdat,'Mon') as mon,
+	EXTRACT(year from createdat) as yyyy,
+	SUM (impressionvalue) AS totalEarnings
+FROM postimpressions
+WHERE author = '57b6a79b1615281672d4c9fa'
+GROUP BY 1,2,3;
+```
