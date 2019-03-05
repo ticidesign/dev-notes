@@ -3,6 +3,7 @@ This is a collection of my notes from different things I've learnt while program
 
 ## Categories
 - [Bash](#bash)
+- [Git](#git)
 - [Database](#db)
 - [Javascript](#javascript)
 - [Server](#server)
@@ -13,7 +14,12 @@ This is a collection of my notes from different things I've learnt while program
 - [Bash Script](bash/bash_script.md)
 
 ## Database
+- [MongoDB](db/mongodb.md)
 - [Postgres](db/postgres.md)
+
+## Git
+- [Basics](git/git_basics.md)
+- [Git Open](git/git_open.md)
 
 ## Javascript
 

@@ -1,16 +1,11 @@
 # Mongo DB
 
-author = "57b6a79b1615281672d4c9"
-post = "59199bc40924a116d41e2f23"
+## CLI
+Restore a collection
 
-
-## Weekly Impression
-Postgres		6.5s		7.8s		7.1s		6.0s		5.1s		1.3s		2.5s		2.3s
-MongoDB			2.62s		1.33s		1.17s		1.2s
-
-## Post Impressions
-Postgres		5.7s		5.6s		4.7s		5.4s		1s
-MongoDB			2.18s		7.59s		3.98s		0.59s		1.62s
+```sh
+mongorestore -d vocal-media-platform --nsInclude 'vocal-media-platform.postimpressions' ./dump/vocal-media-platform --drop
+```
 
 
 ```sh
