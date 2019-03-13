@@ -104,3 +104,24 @@ pull == fetch + merge
 ```sh
 git pull
 ```
+
+### Log
+The history of the commits
+
+```sh
+git log
+```
+Formatting the result
+
+```sh
+git log --oneline
+git log --oneline --graph --all --decorate
+```
+
+### Create alias
+
+```sh
+git config --global alias.lol "log --oneline --graph --all --decorate"
+```
+
+More [here](https://www.youtube.com/watch?v=ZDR433b0HJY)

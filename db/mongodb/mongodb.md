@@ -4,13 +4,21 @@
 Restore a collection
 
 ```sh
-mongorestore -d vocal-media-platform --nsInclude 'vocal-media-platform.postimpressions' ./dump/vocal-media-platform --drop
+mongorestore -d vocal-media-platform --nsInclude 'vocal-media-platform.users' ./dump/vocal-media-platform/users.bson --drop
+```
+
+Restore whole DB
+
+```sh
+mongorestore -d vocal-media-platform ./dump/vocal-media-platform --drop
 ```
 
 
 ```sh
 db.getCollection('postimpressions').count({"createdAt": { $lt: ISODate("2018-01-12T00:00:000Z") }})
 ```
+
+Bulk remove documents
 
 ```js
 var bulk = db.getCollection('postimpressions').initializeUnorderedBulkOp();
@@ -19,7 +27,7 @@ bulk.execute();
 ```
 
 ```js
-//WeeklyEarningsQuery
+//Monthly Earnings Query
 // db.setProfilingLevel(0)
 // db.system.profile.drop()
 // db.setProfilingLevel(2)
