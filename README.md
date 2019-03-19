@@ -17,6 +17,9 @@ This is a collection of my notes from different things I've learnt while program
 - [MongoDB](db/mongodb.md)
 - [Postgres](db/postgres.md)
 
+## DevTools
+- [Dev Tools Tricks](devtools/console.md)
+
 ## Git
 - [Basics](git/git_basics.md)
 - [Git Open](git/git_open.md)
