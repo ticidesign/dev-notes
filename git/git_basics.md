@@ -49,13 +49,16 @@ git branch -D branch (delete branch)
 ```sh
 git merge --ff-only email ?
 ```
-
-
 ### Global Config
 ```sh
 git config --global user.name "Your Name"
 git config --global user.email "youremail@email.com"
 git config --global color.ui true
+```
+
+### Determine the URL that a local Git repository was originally cloned from
+```sh
+git config --get remote.origin.url
 ```
 
 ## Branches
@@ -86,7 +89,6 @@ git merge --nocommit (merge but it does not commit)
 - Long running topic
 
 ## Remotes
-
 
 ### Push
 ```sh

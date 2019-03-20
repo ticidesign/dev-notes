@@ -26,26 +26,28 @@ true
 More examples:
 
 ```js
-			!!false === false
-			!!true === true
+	!!false === false
+	!!true === true
 
-			!!0 === false
-			!!parseInt("foo") === false // NaN is falsy
-			!!1 === true
-			!!-1 === true  // -1 is truthy
+	!!0 === false
+	!!parseInt("foo") === false // NaN is falsy
+	!!1 === true
+	!!-1 === true  // -1 is truthy
 
-			!!"" === false // empty string is falsy
-			!!"foo" === true  // non-empty string is truthy
-			!!"false" === true  // ...even if it contains a falsy value
+	!!"" === false // empty string is falsy
+	!!"foo" === true  // non-empty string is truthy
+	!!"false" === true  // ...even if it contains a falsy value
 
-			!!new Boolean(false)  // true
-			!!Boolean(false) // false
+	!!new Boolean(false)  // true
+	!!Boolean(false) // false
 
-			!!window.foo === false // undefined is falsy
-			!!null === false // null is falsy
+	!!window.foo === false // undefined is falsy
+	!!null === false // null is falsy
 
-			!!{} === true  // an (empty) object is truthy
-			!![] === true  // an (empty) array is truthy; PHP programmers beware!
+	!!{} === true  // an (empty) object is truthy
+	!![] === true  // an (empty) array is truthy; PHP programmers beware!
 ```
 
 You could write `Boolean(req.session.keystoneItemId)` instead which is more idiot proof.
+
+[Stackoverflow](https://stackoverflow.com/questions/784929/what-is-the-not-not-operator-in-javascript)
