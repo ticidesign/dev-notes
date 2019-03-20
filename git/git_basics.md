@@ -61,6 +61,14 @@ git config --global color.ui true
 git config --get remote.origin.url
 ```
 
+# Remote Branch
+
+```sh
+git remote -v
+git remote add origin <url>
+git remote set-url origin <url>
+```
+
 ## Branches
 
 Branch is just a pointer in the git DB
