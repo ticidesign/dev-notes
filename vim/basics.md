@@ -119,6 +119,7 @@ All folding commands start with a `z`\
 ### Plugins
 [fzf](https://github.com/junegunn/fzf.vim)\
 [nerdtree](https://github.com/scrooloose/nerdtree)
+[Vim for Visual Studio Code](http://aka.ms/vscodevim)
 
 ### Tutorial
 `vimtutor` start a tutorial built into Vim (30 min of basics)
