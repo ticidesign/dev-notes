@@ -1,4 +1,4 @@
-# VIM
+# VIM Basics
 
 `vim` start vim\
 `i` Enter Insert mode\

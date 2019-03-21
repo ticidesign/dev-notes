@@ -61,6 +61,10 @@ This is a collection of my notes from different things I've learnt while program
 - [File Space Usage](server/file_space_usage.md)
 - [inode](server/inode.md)
 
+
+## VIM
+- [Basics](vim/basics.md)
+
 ## VSCode
 - [Shortcuts](vscode/shortcuts.md)
 
