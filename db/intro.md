@@ -1,6 +1,6 @@
 # Mongo vs Postgres
 
-##Pos and Cons
+## Pos and Cons
 Depends on your application
 
 ### Mongo

@@ -1,5 +1,7 @@
 # Ubuntu setup with NGINX http/2 and letsencrypt
 
+[Dom’s notes](https://gist.github.com/dominikwilkowski/435054905c3c7abc2badc92a0acff4ba)
+
 # Intro
 
 > This is a basic collection of things I do when setting up a new headless ubuntu machine as a webserver. Following the steps below should give you a reasonable secure server with HTTP/2 support (including ALPN in chrome) and the fast NGINX server. I am happy to add things so leave a comment.
@@ -432,17 +434,19 @@ sudo crontab -e
 
 And add the two following lines:
 
+Crontab Guru: [0 1 8-14,22-28 * Mon](https://crontab.guru/#0_1_8-14,22-28_*_Mon)
+
 ```shell
 SHELL=/bin/bash # I like bash
 
 # add timestamp to your log file for easier parsing
-29 2 * * 1 date >> /var/log/letsencrypt-renewal.log 2>&1
+0 1 8-14,22-28 * Mon date >> /var/log/letsencrypt-renewal.log 2>&1
 
-# runs every Monday at 2:30AM, output is saved to /var/log/letsencrypt-renewal.log
-30 2 * * 1 certbot renew >> /var/log/letsencrypt-renewal.log 2>&1
+# runs every Monday at 1:02AM, output is saved to /var/log/letsencrypt-renewal.log
+2 1 8-14,22-28 * Mon certbot renew >> /var/log/letsencrypt-renewal.log 2>&1
 
-# restart the server 2:50AM
-50 2 * * 1 /etc/init.d/nginx restart >> /var/log/letsencrypt-renewal.log 2>&1
+# restart the server 1:30AM
+30 1 8-14,22-28 * Mon /etc/init.d/nginx restart >> /var/log/letsencrypt-renewal.log 2>&1
 # empty line at the end so cron doesn’t ignore the last command
 ```
 
@@ -481,8 +485,30 @@ End result:
 	x.com/api -> node
 	staging.x.com -> node
 
-www forward https
 
+www forward https
 http forward https
 
-Create and renew SSL cretificate - CRON job
+Write about Let's Encrypt, how it works:
+
+1. CRON Job - Create and renew SSL cretificate
+Actual cerrtifcate expires 11 June
+
+ ┌────────── minute (0 - 59)
+ │ ┌──────── hour (0 - 23)
+ │ │ ┌────── day of month (1 - 31)
+ │ │ │ ┌──── month (1 - 12)
+ │ │ │ │ ┌── day of week (0 - 6 => Sunday - Saturday, or
+ │ │ │ │ │                1 - 7 => Monday - Sunday)
+ ↓ ↓ ↓ ↓ ↓
+ * * * * * command to be executed
+
+
+2. Instal Keystone (run a graphql server)
+localhost: 8080 - keystone
+
+
+## Next Steps
+Delete all and setup again
+Install domains (80 first -> get certificate -> then do the redirect -> disable http)
+Keystone and MongoDB or Postgres
