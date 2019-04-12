@@ -9,7 +9,7 @@
 
 # Basics
 
-After creating the server (droplet on [DigitalOcean](https://m.do.co/c/e0de563c2962)) log in with
+After creating the server (droplet on [DigitalOcean](https://m.do.co/c/6dcf64644d97)) log in with
 
 ```shell
 ssh root@[IP ADDRESS]
@@ -42,7 +42,7 @@ Install vim:
 apt-get install vim vim-scripts vim-doc vim-latexsuite vim-gui-common vim-gnome vim-gtk
 ```
 
-Create a new user:
+Create a new user (uaer = deploy):
 
 ```shell
 useradd deploy
@@ -74,8 +74,8 @@ visudo
 Add into the file:
 
 ```shell
-root    ALL=(ALL) ALL
-deploy  ALL=(ALL) ALL
+root    ALL=(ALL:ALL) ALL
+deploy  ALL=(ALL:ALL) ALL
 ```
 
 Disable root login and password authentication
@@ -89,7 +89,7 @@ Edit:
 ```shell
 PermitRootLogin no
 PasswordAuthentication no
-AllowUsers deploy@(your-ip) deploy@(another-ip-if-any)    #you can even whitelist IPs from where you connect from (optional)
+AllowUsers deploy@(your-ip) deploy@(another-ip-if-any) #you can even whitelist IPs from where you connect from (optional)
 ```
 
 Restart the ssh service
@@ -104,7 +104,13 @@ Now test your login with the new user in a new shell:
 ssh deploy@[ID ADDRESS]
 ```
 
+
+```shell
+whoami
+```
+
 ## If everything works with the deploy login, log out of you root session and close.
+
 
 ----------------------------------------------------------------------------------------------------------------------------
 
@@ -176,7 +182,7 @@ And add the following line:
 none            /run/shm        tmpfs   defaults,ro              0       0
 ```
 
-Install rootkit detection with RKHunter and CHKRootKit:
+Install [rootkit](https://en.wikipedia.org/wiki/Rootkit) detection with RKHunter and CHKRootKit:
 
 ```shell
 sudo apt-get install rkhunter chkrootkit
@@ -196,8 +202,9 @@ RUN_DAILY="true"
 
 To run RKHunter execute the following command as often as you update `apt-get`:
 
+
 ```shell
-sudo rkhunter --update
+sudo rkhunter -c
 ```
 
 _(This will update it’s database and performe a check)_
@@ -382,6 +389,11 @@ sudo ln -s /var/www/html/ /www
 sudo chown deploy:deploy /var/www/html/ -R
 ```
 
+Rename the index file in /var/www/html/
+```
+mv index.nginx-debian.html index.html
+````
+
 And edit the NGINX config:
 
 ```shell
@@ -389,6 +401,8 @@ sudo vim /etc/nginx/sites-available/default
 ```
 
 To delete a page in `vim` just type `:1,$d` in the command prompt. I usually write the config locally and then just past it into vim. So: copy content, open file in vim, do `:1,$d` to delete contents, type `i` to set vim into insert mode, paste.
+
+* To setup new domain in the ngixn config do [listen 80 first](first_ngnix_congif.sh) -> then get a certificate -> then do the redirect -> disable http -> get the other certificate)
 
 _(I’ve attached my [basic config](https://gist.github.com/dominikwilkowski/435054905c3c7abc2badc92a0acff4ba#file-default) that works for me below, note that this config assumes SSL and the cypher below)_
 
@@ -431,22 +445,21 @@ Set up auto renewal. Open crontab:
 ```shell
 sudo crontab -e
 ```
-
-And add the two following lines:
-
 Crontab Guru: [0 1 8-14,22-28 * Mon](https://crontab.guru/#0_1_8-14,22-28_*_Mon)
 
+And add the three following lines:
+
 ```shell
-SHELL=/bin/bash # I like bash
+SHELL=/bin/bash # I like bash *** SHOULD THIS LINE BE ADDED TO THE SAME FILE? ***
 
 # add timestamp to your log file for easier parsing
-0 1 8-14,22-28 * Mon date >> /var/log/letsencrypt-renewal.log 2>&1
+0 1 5-12,22-28 * Mon date >> /var/log/letsencrypt-renewal.log 2>&1
 
 # runs every Monday at 1:02AM, output is saved to /var/log/letsencrypt-renewal.log
-2 1 8-14,22-28 * Mon certbot renew >> /var/log/letsencrypt-renewal.log 2>&1
+2 1 5-12,22-28 * Mon certbot renew >> /var/log/letsencrypt-renewal.log 2>&1
 
 # restart the server 1:30AM
-30 1 8-14,22-28 * Mon /etc/init.d/nginx restart >> /var/log/letsencrypt-renewal.log 2>&1
+30 1 5-12,22-28 * Mon /etc/init.d/nginx restart >> /var/log/letsencrypt-renewal.log 2>&1
 # empty line at the end so cron doesn’t ignore the last command
 ```
 
@@ -459,40 +472,9 @@ Now test your SSL certs via:
 * [security headers](https://securityheaders.io)
 * [encryption strength](https://tls.imirhil.fr/)
 
+# CRON Job Graph
 
 
-# DNS
-On Firefox type:
-
-```
-about:config
-network.dnsCacheExpiration
-```
-
-On your local Terminal type
-```sh
-sudo dscacheutil -flushcache
-sudo killall -HUP mDNSResponder
-```
-
-TODO:
-
-Write a NGINX config
-
-End result:
-
-	x.com -> static
-	x.com/api -> node
-	staging.x.com -> node
-
-
-www forward https
-http forward https
-
-Write about Let's Encrypt, how it works:
-
-1. CRON Job - Create and renew SSL cretificate
-Actual cerrtifcate expires 11 June
 
  ┌────────── minute (0 - 59)
  │ ┌──────── hour (0 - 23)
@@ -503,12 +485,30 @@ Actual cerrtifcate expires 11 June
  ↓ ↓ ↓ ↓ ↓
  * * * * * command to be executed
 
+# DNS clean browser cache
+On Firefox type in the address bar:
 
-2. Instal Keystone (run a graphql server)
+```
+about:config
+```
+look up for network.dnsCacheExpiration and set this values to `0`
+
+On your local terminal type:
+
+```sh
+sudo dscacheutil -flushcache
+sudo killall -HUP mDNSResponder
+```
+
+
+TODO:
+
+End result:
+
+	x.com -> static
+	x.com/api -> node
+	staging.x.com -> node
+
+1. CRON Job - Create and renew SSL cretificate
+2. Instal Keystone and Mongo (run a graphql server)
 localhost: 8080 - keystone
-
-
-## Next Steps
-Delete all and setup again
-Install domains (80 first -> get certificate -> then do the redirect -> disable http)
-Keystone and MongoDB or Postgres
