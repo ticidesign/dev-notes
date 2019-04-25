@@ -36,7 +36,14 @@ This is a collection of my notes from different things I've learnt while program
 - [De Morgan's Law](js/algebra/de-morgans-laws.md)
 
 ### ES6
+- [Array - find and findIndex](js/es6/arrays/find-findIndex.md)
+- [Array - flat and flatMap](js/es6/arrays/flat-flatmap.md)
+- [Array - includes](js/es6/arrays/includes.md)
+- [Destructuring](js/es6/destructuring.md)
+- [Generators](js/es6/generators.md)
+- [Iterators](js/es6/iterators.md)
 - [Promises](js/es6/promises.md)
+- [Template Strings](js/es6/template-strings.md)
 - [Use Strict Mode](js/es6/use_strict.md)
 
 ### Framework
