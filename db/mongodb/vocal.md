@@ -13,13 +13,29 @@ Author with the most  post impressions in Vocal:
 9. walter_cox@jerrickmedia.com (681083.0)
 10. elisabethacaraballo@gmail.com (637692.0)
 
-
+```js
 db.getCollection('postimpressions').aggregate([
     { $group : { _id : '$author', totalReads : { $sum : 1 }, totalEarnings: { $sum: '$impressionValue' } } },
     { $sort: { count: -1 } }
 ])
+```
+Insert many
+
+```js
+for (var i = 0; i < 1000; i++) {
+	db.getCollection('postimpressions').insertMany([
+		{
+			"createdAt": new Date(),
+			"post" : ObjectId("5c47b50492e6d11a7a6c183d"),
+			"author" : ObjectId("5ae909f267c71b12a6692d70"),
+			"impressionValue" : 0.6,
+		}
+	])
+}
+```
 
 
+```js
 UserModel.aggregate([
 		{
 			$lookup: {
@@ -67,3 +83,4 @@ UserModel.aggregate([
 			$out: 'test_users',
 		},
 	]);
+```
