@@ -72,3 +72,9 @@ db.getCollection('postimpressions').aggregate(
 })
 db.system.profile.find()
 ```
+
+Mongo CLI check indexes being created
+
+```sh
+ db.currentOp({ "ns" : "jerrick-media-magazine.system.indexes" })
+ ```

@@ -33,7 +33,11 @@ for (var i = 0; i < 1000; i++) {
 	])
 }
 ```
+Delete many
 
+```js
+db.getCollection('postimpressions').deleteMany({ post: ObjectId('5c47b50492e6d11a7a6c183d')})
+```
 
 ```js
 UserModel.aggregate([

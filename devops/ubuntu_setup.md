@@ -453,13 +453,13 @@ And add the three following lines:
 SHELL=/bin/bash # I like bash *** SHOULD THIS LINE BE ADDED TO THE SAME FILE? ***
 
 # add timestamp to your log file for easier parsing
-0 1 5-12,22-28 * Mon date >> /var/log/letsencrypt-renewal.log 2>&1
+0 1 1,15 * * date >> /var/log/letsencrypt-renewal.log 2>&1
 
 # runs every Monday at 1:02AM, output is saved to /var/log/letsencrypt-renewal.log
-2 1 5-12,22-28 * Mon certbot renew >> /var/log/letsencrypt-renewal.log 2>&1
+2 1 1,15 * * certbot renew >> /var/log/letsencrypt-renewal.log 2>&1
 
 # restart the server 1:30AM
-30 1 5-12,22-28 * Mon /etc/init.d/nginx restart >> /var/log/letsencrypt-renewal.log 2>&1
+30 1 1,15 * * /etc/init.d/nginx restart >> /var/log/letsencrypt-renewal.log 2>&1
 # empty line at the end so cron doesn’t ignore the last command
 ```
 
@@ -473,8 +473,6 @@ Now test your SSL certs via:
 * [encryption strength](https://tls.imirhil.fr/)
 
 # CRON Job Graph
-
-
 
  ┌────────── minute (0 - 59)
  │ ┌──────── hour (0 - 23)

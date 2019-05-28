@@ -15,7 +15,7 @@ add_header  X-XSS-Protection '1; mode=block';
 add_header  Strict-Transport-Security 'max-age=31536000; includeSubDomains;' always;
 
 # Content Security Policy
-add_header Content-Security-Policy "default-src 'self'; script-src 'self' https://ssl.google-analytics.com https://cdn.polyfill.io; img-src 'self' https://ssl.google-analytics.com; style-src 'self'; font-src 'self'; frame-src 'self'; object-src 'none'";
+# add_header Content-Security-Policy "default-src 'self'; script-src 'self' https://ssl.google-analytics.com https://cdn.polyfill.io; img-src 'self' https://ssl.google-analytics.com; style-src 'self'; font-src 'self'; frame-src 'self'; object-src 'none'";
 
 # CORS
 add_header  'Access-Control-Allow-Origin' '*';
