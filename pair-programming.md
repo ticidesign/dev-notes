@@ -49,3 +49,14 @@ You're doing hard learning but you have no idea how it's working.
 Pair programming lands us perfectly in the middle.
 
 It works by pairing two people. While one come up with the approach to solve the problem. The other interpret the pseudocode as sort of a talk through the code. Turning a spoken verbalized problem solving approach into actual code.
+
+Answer these:
+— I know what a variable is
+— I've created a function before
+— I've added a CSS style before
+— I have implemented a sort algorithm (bubble, merge etc)
+— I can add a method to an object’s prototype
+— I understand the event loop in JavaScript
+— I understand 'callback functions'
+— I've built a project in React or Angular
+— I can handle collisions in hash tables

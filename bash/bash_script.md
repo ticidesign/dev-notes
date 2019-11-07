@@ -1,5 +1,7 @@
 ## Bash Script
 
+[BASH Scripting Essentials For Node.js Developers](https://itnext.io/bash-scripting-essentials-for-javascript-developers-ffef92afba2c)
+
 I've had a few runs at it, but from what I've seen, npm scripts don't support arguments in the middle of the script (e.g. `cd projects/{$1} && bolt start`). This is explained in this Stack Overflow post https://github.com/npm/npm/pull/5518#issuecomment-46915480. The workaround is using something called a command-line parser such as `Minimist, dashdash, nopt, and commander`, but requiring something to be installed to run one little script feels like overkill.
 
 Allow projects to be specified with 'bolt start'
