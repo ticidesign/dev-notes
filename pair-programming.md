@@ -2,7 +2,8 @@
 
 Pair programming is the secret approach to how you grow as an engineer.
 
-## Types of learning 
+## Types of learning
+
 Harder learning and easier learning. 
 
 ### Easier learning spoon feeds

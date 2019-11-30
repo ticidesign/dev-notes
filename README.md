@@ -1,6 +1,8 @@
 # Dev Notes
 This is a collection of my notes from different things I've learnt while programming.
 
+https://github.com/learn-javascript-courses
+
 ## Categories
 - [Bash](#bash)
 - [Git](#git)
