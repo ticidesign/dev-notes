@@ -85,3 +85,5 @@ fetch('https://api.github.com/users/ticidesign')
 
 console.table(dogs);
 ```
+
+[Console Cheatsheet](https://levelup.gitconnected.com/console-cheat-sheet-for-javascript-developers-21f0c49604d4)
