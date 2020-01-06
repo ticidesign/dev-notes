@@ -106,7 +106,7 @@ Define specific regions for content to go into. Or something. Not entirely sure 
 
 
 ### Native css modules
-..You can import css inside javascript now. Natively. Wild! “Gets a rich object back”.
+You can import css inside javascript now. Natively. Wild! “Gets a rich object back”.
 
 
 ### Sub grid
