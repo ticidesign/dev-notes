@@ -6,6 +6,7 @@
 [Thinkmill repo](https://github.com/Thinkmill/design-system)
 [Atomic Design Way](https://www.usedetails.com)
 [Zeit's Visual Design System](https://zeit.co/design)
+[WhitePaper](http://whitepaper.tools/)
 
 ## Learning 
 
