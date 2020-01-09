@@ -53,6 +53,8 @@ In this episode of [Remote Work](https://pca.st/9i6p), they say instead of refer
 
 [arcticcoworking](https://www.arcticcoworking.com/)
 
+[remoteyear](https://remoteyear.com/)
+
 [tandem](https://tandem.chat/)
 
 Some details on how ⚡️instant calls⚡️ work:
@@ -89,6 +91,9 @@ https://twitter.com/anildash/status/1142864905797869568?s=20
 
 https://twitter.com/patrickc/status/1123934134601179138?s=19
 
+
+## Jobs
+[Remote-friendly Companies](https://github.com/lerrua/remote-jobs-brazil)
 
 ## Others
 
