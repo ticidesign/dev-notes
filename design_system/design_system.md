@@ -1,6 +1,7 @@
 # Awesome Design System
 
 [Awesome Design Systems](https://github.com/alexpate/awesome-design-systems)
+[Design System Checklist](https://designsystemchecklist.com/)
 [Spectrum, Adobe’s design system](https://spectrum.adobe.com)
 [Guardian Design System](https://design.theguardian.com/)
 [Thinkmill repo](https://github.com/Thinkmill/design-system)
