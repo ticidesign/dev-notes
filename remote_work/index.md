@@ -37,6 +37,8 @@
 
 [State of Remote Work 2019](https://buffer.com/state-of-remote-work-2019)
 
+[Why I Think Remote Work Is Incredible](https://tejaskumar.com/blog/1580132459957__why-i-think-remote-work-is-incredible)
+
 
 ## Podcast
 In this episode of [Remote Work](https://pca.st/9i6p), they say instead of referring to it as "work" and "remote work", they refer to it as "commute work" and "work" ❤️
@@ -46,6 +48,8 @@ In this episode of [Remote Work](https://pca.st/9i6p), they say instead of refer
 
 ## Tools
 [remote tools](https://www.remote.tools/)
+
+[remotework2020.remote.tools](https://remotework2020.remote.tools/)
 
 [standups](https://standups.io/)
 
