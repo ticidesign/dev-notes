@@ -10,6 +10,10 @@
 [WhitePaper](http://whitepaper.tools/)
 [Design System CLI](https://medium.com/@tylerkrupicka/introducing-design-systems-cli-af9593cd67d6)
 
+## Resources
+
+[Website Style Guide Resources](http://styleguides.io/)
+
 ## Learning 
 
 [Learn Design System](https://www.learndesignsystem.com/)
