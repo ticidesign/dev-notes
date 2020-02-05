@@ -1,7 +1,11 @@
-## Readability
+## Typescript
 
 Typescript improve readability with typescript numeric separators when working with large numbers
 
-#### Subtitle
+#### Example
 ```js
 ```
+
+
+### Resources
+[ts-ast-viewer](https://ts-ast-viewer.com/)

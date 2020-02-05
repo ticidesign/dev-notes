@@ -40,6 +40,9 @@
 [Why I Think Remote Work Is Incredible](https://tejaskumar.com/blog/1580132459957__why-i-think-remote-work-is-incredible)
 
 
+[Tracking the future of remote workplaces: Apps, communication, and liability](https://arstechnica.com/gaming/2020/02/tracking-the-future-of-remote-workplaces-apps-communication-and-liability/)
+
+
 ## Podcast
 In this episode of [Remote Work](https://pca.st/9i6p), they say instead of referring to it as "work" and "remote work", they refer to it as "commute work" and "work" ❤️
 
