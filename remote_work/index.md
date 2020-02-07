@@ -43,6 +43,8 @@
 [Tracking the future of remote workplaces: Apps, communication, and liability](https://arstechnica.com/gaming/2020/02/tracking-the-future-of-remote-workplaces-apps-communication-and-liability/)
 
 
+[Setting Up Your Webcam, Lights, and Audio for Remote Work, Podcasting, Videos, and Streaming](https://mattstauffer.com/blog/setting-up-your-webcam-lights-and-audio-for-remote-work-podcasting-videos-and-streaming/)
+
 ## Podcast
 In this episode of [Remote Work](https://pca.st/9i6p), they say instead of referring to it as "work" and "remote work", they refer to it as "commute work" and "work" ❤️
 
