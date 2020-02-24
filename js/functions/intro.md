@@ -32,3 +32,16 @@ myFunction(10, 2); // invokation
 
 The function we pass in is a [callback function](callbacks.md)
 The outer function that takes in the function (our callback) is a [higher-order function](high-order-functions.md)
+
+## Generalized Functions
+
+‘Parameters’ (placeholders) mean we don’t need to decide what data to run our functionality on until we run the function
+- Then provide an actual value (‘argument’) when we run the function Higher order functions follow this same principle.
+- We may not want to decide exactly what some of our functionality is until we run our function
+
+## Callbacks & Higher Order Functions
+
+One of the most misunderstood concepts in JavaScript
+- Enables powerful pro-level functions like map, filter, reduce (a core aspect of functional programming)
+- Makes our code more declarative and readable
+- Forms the backbone of technical interview (and professional mid/senior level engineering interviews)
