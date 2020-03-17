@@ -17,6 +17,8 @@
 ## Learning 
 
 [Learn Design System](https://www.learndesignsystem.com/)
+[Design System Course in Figma by Design+Code](https://designcode.io/design-system-figma)
+[Design systems pro video series—Master product design at scale with Brad Frost, Dan Mall, and Josh Clark](https://www.invisionapp.com/design-system-manager/expert-advice)
 
 ## Reading
 
