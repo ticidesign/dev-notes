@@ -7,6 +7,8 @@
 
 [11 Best Practices for Working Remotely](https://usefyi.com/remote-work-best-practices/)
 
+[Atlassian Remote Work Guidelines](https://trello.com/b/nI843jXe/remote-work-guidelines)
+
 ## Articles
 
 [The Remote Work Report](https://usefyi.com/remote-work-report/)
