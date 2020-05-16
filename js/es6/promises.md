@@ -1,9 +1,12 @@
 ## Promises
 
-Promises allow us the synchronous way of writing code while giving us asynchronous execution of code.
-They are useful for async operations in a sync like manner.
+Using two-pronged ‘facade’ functions that both:
+- Initiate background web browser work and
+- Return a placeholder object (promise) immediately in JavaScript
 
-Often used to [fecthing a JSON API]9https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch) or doing some AJAX work. It's buit in right to the browser.
+Promises allow us the synchronous way of writing code while giving us asynchronous execution of code. They are useful for async operations in a sync like manner. The most signficant ES6 feature.
+
+Often used to [fecthing a JSON API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch) or doing some AJAX work. It's buit in right to the browser.
 
 [Promises](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise) is something that will happen between now a in the end of time. Something that will happen in the future, but not immediately.
 
@@ -46,7 +49,6 @@ promiseToCleanTheRoom
 ```
 Once the `promiseToCleanTheRoom` gets executed, our `then` function will trigger only if the Promise gets resolved.
 Likewise, our `catch` function will only trigger only if the Promise gets rejected.
-
 
 
 ### Chaining Promise + Flow Control
@@ -129,3 +131,39 @@ Promise
 			console.log(responses);
 	});
 ```
+Promises are special objects built into JavaScript that get returned immediately when we make a call to a web browser API/feature (e.g. fetch) that’s set up to return promises (not all are). They act as a placeholder for the data we expect to get back from the web browser feature’s background work. 
+
+Any code we want to run on the returned data must also be saved on the promise object. Added using .then method to the hidden property ‘onFulfilment’. Promise objects will automatically trigger the attached function to run (with its input being the returned data).
+
+But we need to know how our promise-deferred functionality gets back into JavaScript to be run. Example:
+
+```js
+function display(data){console.log(data)}
+function printHello(){console.log("Hello");}
+function blockFor300ms(){/* blocks js thread for 300ms */ }
+
+setTimeout(printHello, 0);
+
+const futureData = fetch('https://twitter.com/ticidesign/tweets/1')
+futureData.then(display)
+
+blockFor300ms()
+console.log("Me first!");
+```
+
+**We have rules for the execution of our asynchronously delayed code**
+
+Hold promise-deferred functions in a microtask queue and callback function in a task queue (Callback queue) when the Web Browser Feature (API) finishes.
+
+Add the function to the Call stack (i.e. run the function) when:
+- Call stack is empty & all global code run (Have the Event Loop check this condition)
+
+Prioritize functions in the microtask queue over the Callback queue
+
+## Promises, Web APIs, the Callback & Microtask Queues and Event loop enable:
+**Non-blocking applications:** This means we don’t have to wait in the single thread and don’t block further code from running
+**However long it takes:** We cannot predict when our Browser feature’s work will finish so we let JS handle automatically running the function on its completion
+**Web applications:** Asynchronous JavaScript is the backbone of the modern web - letting us build fast ‘non-blocking’ applications
+
+### Articles
+[Jake Archibald wrote: Tasks, microtasks, queues and schedules](https://jakearchibald.com/2015/tasks-microtasks-queues-and-schedules/)
