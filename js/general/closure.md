@@ -44,3 +44,9 @@ function outer (){
 outer();
 ```
 Where you define your functions determines what variables your function have access to when you call the function
+
+Exercices: http://csbin.io/closures
+
+### Article
+[I never understood JavaScript closures](https://medium.com/dailyjs/i-never-understood-javascript-closures-9663703368e8)
+
