@@ -1,6 +1,5 @@
 # Pure Functions
 
-
 Pure functions are part of the functional programming approach. Functional programming is a paradigm. A mean of structuring and thinking about how we write our code at scale.
 
 Some of the core categories:

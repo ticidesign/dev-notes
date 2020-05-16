@@ -67,8 +67,8 @@ function printIf(predicate) {
 
 ```js
 function when(fn) {
-	return function(predicate) { // in this case will be the function passed to printIt
-		return function(...args) { // in this case the messages
+	return function(predicate) { 	// in this case will be the function passed to printIt
+		return function(...args) { 	// in this case the messages
 			if (predicate(...args)) {
 				return fn(...args);
 			}
@@ -80,7 +80,7 @@ var printIf = when(output);
 var msg1 = "Hello";
 var msg2 = msg1 + " World";
 
-printIf(isShortEnough)(msg1);		// Hello
+printIf(isShortEnough)(msg1);	// Hello
 printIf(isLongEnough)(msg2);  	// Hello World
 
 ```
