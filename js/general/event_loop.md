@@ -20,7 +20,7 @@ An event loop has one or more task queues.
 
 ### Tool
 
-[Loupe]((http://latentflip.com/loupe/)) is a little visualisation to help you understand how JavaScript's call stack/event loop/callback queue interact with each other.
+[Loupe](http://latentflip.com/loupe/) is a little visualisation to help you understand how JavaScript's call stack/event loop/callback queue interact with each other.
 
 ### Videos
 [What the heck is the event loop anyway? | Philip Roberts | JSConf EU 2014](https://www.youtube.com/watch?v=8aGhZQkoFbQ)
