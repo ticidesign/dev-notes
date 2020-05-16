@@ -1,5 +1,16 @@
 # Intro to Functions
 
+Every function is a single-valued collection of pairs.
+
+#### Characteristics:
+
+**Total:** for every input there is a corresponding output
+
+**Deterministic:** Always receive the same output for a given input
+
+**No Side Effects:** No observable effects besides computing a value
+
+
 Functions in JavaScript are considered first-class objects. They behave as an object.
 They can co-exist with and can be treated like any other javascript object.
 
