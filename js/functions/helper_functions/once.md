@@ -7,7 +7,7 @@ Think of this once function as a wrapper for the function you provide:
 function once(fn, context) { 
 	var result;
 
-	return function() { 
+	return function() {
 		if(fn) {
 			result = fn.apply(context || this, arguments);
 			fn = null;
