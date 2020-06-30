@@ -34,6 +34,8 @@
 
 ## Reading
 
+[Colour system](https://medium.com/buildit/gravity-3-colour-system-a41cf3fbf443)
+
 [And You Thought Buttons Were Easy?](https://medium.com/eightshapes-llc/and-you-thought-buttons-were-easy-26eb5b5c1871)
 
 [Effective Mental Models for Code and Systems](https://medium.com/@copyconstruct/effective-mental-models-for-code-and-systems-7c55918f1b3e)
