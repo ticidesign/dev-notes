@@ -18,12 +18,13 @@
 
 [Design System CLI](https://medium.com/@tylerkrupicka/introducing-design-systems-cli-af9593cd67d6)
 
+[Spotify DS][https://spotify.design/article/reimagining-design-systems-at-spotify]
 
 ## Resources
 
 [Website Style Guide Resources](http://styleguides.io/)
 
-## Learning 
+## Learning
 
 [Learn Design System](https://www.learndesignsystem.com/)
 
@@ -31,6 +32,7 @@
 
 [Design systems pro video series—Master product design at scale with Brad Frost, Dan Mall, and Josh Clark](https://www.invisionapp.com/design-system-manager/expert-advice)
 
+[Introduction to Design Systems](https://fem-design-systems.netlify.app)
 
 ## Reading
 
@@ -43,7 +45,6 @@
 [Extending Atomic Design from Brad FrostBrad Frost](http://bradfrost.com/blog/post/extending-atomic-design/)
 
 [Design Tokens through a GraphQL interface](https://github.com/my-slab/design-tokens-graphql)
-
 
 ## Meetup
 
