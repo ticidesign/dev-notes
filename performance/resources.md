@@ -7,9 +7,7 @@ ex facebook https://reactconfau.com/talks/the-first-two-seconds-faster-page-load
 
 https://addyosmani.com/blog/web-vitals-extension/
 
-Ainda com o Addy Osmani https://medium.com/dev-channel/
-
-javascript-loading-priorities-in-chrome-57c54cfa6672
+Ainda com o Addy Osmani [JavaScript Loading Priorities in Chrome](https://medium.com/dev-channel/javascript-loading-priorities-in-chrome-57c54cfa6672)
 
 https://engineering.fb.com/web/facebook-redesign/
 
@@ -38,3 +36,5 @@ RAIL https://web.dev/rail/
 [Adventures in Microbenchmarking](https://tomdale.net/2017/07/adventures-in-microbenchmarking/#the-case-of-the-turbo-eval)
 
 [You don't know JS - Benchmark](https://rileygelwicks.gitbooks.io/you-dont-know-js/content/async%20&%20performance/ch6.html)
+
+[Why Perceived Performance Matters, Part 1: The Perception Of Time](https://www.smashingmagazine.com/2015/09/why-performance-matters-the-perception-of-time/)
