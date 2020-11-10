@@ -2,7 +2,7 @@
 
 “If a design system is by a company, then it’s for the company. It might also be open source, but any ol’ random developer who wants to use it isn’t the target audience.” - Chris Coyier
 
-Notes from [Emma Bostian course](https://fem-design-systems.netlify.app/intro) 
+Notes from [Emma Bostian course](https://fem-design-systems.netlify.app)
 
 ## Why do design systems matter?
 

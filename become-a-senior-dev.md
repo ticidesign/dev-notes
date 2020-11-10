@@ -9,12 +9,21 @@ Junior engineer takes any feature they're given to build. And if they've seen te
 
 And even if they've not seen the technology or solution before, they can figure it out because they've learned how to learn, they're problem solving strong. A senior engineer is somebody who can take any given feature, and not only just figure out for themselves, but enable the rest of their team to figure it out.
 
-Because they have technical communication, the ability to explain what their code is doing to somebody else in their team, in a clear and cordial manner. But I'd also say even for junior mid-level developers, technical communication is gonna make your own mindset clearer. So the purpose of Hard Parts is gonna differ depending maybe on your background in JavaScript.
+Because they have **technical communication**, the ability to explain what their code is doing to somebody else in their team, in a clear and cordial manner. But I'd also say even for junior mid-level developers, technical communication is gonna make your own mindset clearer. So the purpose of Hard Parts is gonna differ depending maybe on your background in JavaScript.
 
 If you're someone who's a mid-senior developer, you've seen many of these principles before, maybe you've come from a computer science background. Then think of especially the earlier parts of JavaScript, the Hard Parts, as more about building up your technical communication. The ability for you to verbally work through exactly what's happening on the blackboard here, verbally talk through your JavaScript and your code with clarity and precision.
 
 That's not only going to improve the way you reason as an engineer, it's also gonna make you a more effective, collaborative team member on your engineering projects. You're gonna now be able to take complexity and make it salient or meaningful to other developers in your team. If you're not as familiar with some of these really quite hard principles under the hood of JavaScript, then it's gonna provide you some of the building blocks that is gonna allow you to become a better problem solver.
 
+What to focus on:
+
+1. Analytical problem solving
+2. Technical communication
+3. Engineering approach
+4. Non-technical communication
+5. Javascript and programming experience
+
+======
 
 I know my place of work well enough to identify situations that lead to success.
 I'm comfortable questioning those in authority when their expectations or request don't make sense.
