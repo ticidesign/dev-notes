@@ -24,6 +24,8 @@
 
 [Website Style Guide Resources](http://styleguides.io/)
 
+[Ethan Marcotte's Design Systems reading list](https://ethanmarcotte.com/wrote/my-design-systems-reading-list/)
+
 ## Learning
 
 [Learn Design System](https://www.learndesignsystem.com/)
