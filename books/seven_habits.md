@@ -1,6 +1,9 @@
 # The 7 Habits of Highly Effective People
 
+from https://www.getabstract.com/
+
 ## Take-Aways
+
 - Focus on developing character, not personality.
 - You are what you habitually do, so adopt productive habits.
 - Excellence is a habit, not an aptitude.
@@ -13,6 +16,7 @@
 - Understand that you have the ability to improve your habits and your life.
 
 ## Summary
+
 **Seven Habits**
 The seven habits of highly effective people are:
 
@@ -45,6 +49,7 @@ Certain basic principles and values make people more effective. They are fairnes
 The most important work is the inner work. When you master your interior self, you will master what is outside of you. Many people mistakenly concentrate on production, on making a measurable, visible difference in the world outside. They neglect production capability, the source of power that makes production possible. They are like the fellow who runs several hours a day and boasts of the extra years he’ll live but neglects to notice that he is spending all of his extra time running. He may gain extra years, but he won’t be able to do anything more with them, and the time he spends running might better be spent developing deeper relationships with his spouse, family and friends.
 
 ### Habit 1: Be Proactive
+
 Highly effective people take the initiative. They are proactive. They don’t impose limits on themselves that prevent them from acting. They recognize that they have the freedom to determine the kind of character they will have because they can decide how they will act. They may not be able to control their circumstances, but they can decide whether to use those circumstances or be abused by them. They live by the “principles of personal vision.”
 
 “The most effective way I know to begin with the end in mind is to develop a personal mission statement or philosophy or creed.”
@@ -63,23 +68,28 @@ Not, I can’t or I have to – but, I will decide and I will choose.
 Proactive people operate in the realm of the possible. They see what they can do and do it. By taking responsibility and acting, they expand the realm of the possible. They get stronger as time passes. They become able to do more and more. They begin by committing to change something interior and may eventually change the world around them.
 
 ### Habit 2: Begin with the End in Mind
+
 Think carefully about your goals. Many people spend a lifetime pursuing a goal that proves meaningless, unsatisfying or destructive. You see them on the covers of tabloid magazines, rich, famous, busted for drugs or watching their marriages fall apart. Power, money and fame were the goals that they wanted and achieved, but at what price? Effectiveness is not just a matter of reaching a goal but rather of achieving the right goal. Imagine yourself sitting in the back of the room at your funeral. Imagine what people could honestly say about you based on the way you are now. Do you like what you hear? Is that how you want to be remembered? If not, change it. Take hold of your life. Implement “personal leadership.”
 
 Begin by drafting a personal mission statement that outlines your goals and describes the kind of person you want to be. Think carefully about this mission statement. Examine yourself. See yourself as you really are. Are you self-centered? A workaholic? Money-grubbing? Decide what you need to change and what you want to become. Write the statement. Make a commitment to yourself. Keep that commitment.
 
 ### Habit 3: Put First Things First
+
 You have the power to change who you are, but that means changing how you act. Never let your most important priorities fall victim to the least important. Many people spend their time reacting to urgent circumstances and emergencies, and never invest the necessary effort to develop the ability to prevent emergencies, to exercise “personal management.” They confuse the important with the urgent. The urgent is easy to see. The important is harder to discern. Emphasize planning, avoiding pitfalls, developing relationships, cultivating opportunities and getting adequate recreation. Don’t think about cramming a lot of business into your schedule but rather about making sure that you spend the necessary time on important things. Think of your various roles as a spouse, a parent, a manager, or a community volunteer. Give each role an appropriate allotment of time on your schedule. Don’t rob Peter to pay Paul; make sure each role gets its due.
 
 ### Habit 4: Think Win/Win
+
 In marriage, business or other relationships, exercise “interpersonal leadership” to make both parties winners. Two wins makes everyone better off; two losses places everyone in a worse situation. A win/lose relationship creates a victor and leaves someone injured. Highly effective people strive for win/win transactions, which make it profitable for everyone to cooperate because all the parties are better off in the end. Any other kind of transaction is destructive, because it produces losers and, therefore, enemies and bad feelings, such as animosity, defeat and hostility. Highly effective people become highly effective by multiplying their allies, not their enemies. A good alliance is win/win.
 
 ### Habit 5: Seek First to Understand, Then to Be Understood
+
 Communication is a two-way street. To develop win/win relationships, find out what the other parties want, and what winning means to them. Don’t assume you know. Listen. Always try to understand what the other people want and need before you begin to outline your own objectives. Do not object, argue or oppose what you hear. Listen carefully, and think about it. Try to put yourself in the other party’s shoes.
 
 “Think effectiveness with people and efficiency with things.”
 Good lawyers make it a practice to write the strongest possible case they can from their opponent’s point of view. Only when they understand the best possible arguments for the opposition do they begin to draft the case from their client’s point of view. This tactic is equally valuable in personal relationships or business arrangements. Always understand what the other party needs and wants, and why. Then, when you outline your own objectives, put them in terms that respond directly to the other party’s goals. That is acting upon the “principles of empathetic communication.”
 
 ### Habit 6: Synergize
+
 Cooperation multiplies the power of one. In fact, “creative cooperation” may yield a force greater than the sum of the parts, just as an arch can support a greater weight than two pillars can hold. The arch multiples the power of both pillars. The buzzword to describe this kind of relationship is “synergy,” which means bringing together a whole that is greater than the sum of the parts.
 
 “Real self-respect comes from dominion over self.”
@@ -87,6 +97,7 @@ Cooperation multiplies the power of one. In fact, “creative cooperation” may
 Effective synergy depends on communication. Many people make synergy impossible by reacting from scripts. They don’t listen, reflect and respond but instead hear and react reflexively. Their reactions may be defensive, authoritarian or passive. They may oppose or they may go along – but they don’t actively cooperate. Cooperation and communication are the two legs of a synergistic relationship. Listen, reflect, respond and actively cooperate.
 
 ### Habit 7: Sharpen the Saw
+
 In an old yarn, a man is sawing a log. The work is going slowly and the man is exhausted. The more he saws, the less he cuts. A passerby watches for a while and suggests that the man should take a break to sharpen the saw. But the man says he can’t stop to sharpen the saw because he is too busy sawing! A dull saw makes the work tiresome, tedious and unproductive. Highly effective people take the time they need to sharpen their tools, which are, in fact, their bodies, souls, mind and hearts. It’s time for “self-renewal.”
 
 Effective people take care of their bodies with a program of exercise that combines endurance, flexibility and strength. It’s easy to plan such a program, and you don’t have to join a gym to implement it. Effective people care for their souls with prayer and meditation, if they are inclined to a religiously-grounded spirituality, or perhaps by reading great literature or listening to great music. Never neglect this spiritual dimension; it provides the energy for the rest of your life.
@@ -97,4 +108,5 @@ Mental repair may mean changing your habits, such as the habit of watching telev
 The heart refers to emotions, which depend greatly on others. Work to develop your heart, your emotional connections and your engagement with other people. Communicate, listen and be undemanding. In everything you do, try to make others better off and put them first. By doing so, you’ll transform yourself into a highly effective person.
 
 ## About the Author
-The late Stephen R. Covey was vice-chairman of Franklin Covey Co., and taught Principle-Centered Living and Principle-Centered Leadership. Covey founded the Covey Leadership Center. He wrote several bestsellers, including  The 7 Habits of Highly Effective People which has become a business classic.
+
+The late Stephen R. Covey was vice-chairman of Franklin Covey Co., and taught Principle-Centered Living and Principle-Centered Leadership. Covey founded the Covey Leadership Center. He wrote several bestsellers, including The 7 Habits of Highly Effective People which has become a business classic.

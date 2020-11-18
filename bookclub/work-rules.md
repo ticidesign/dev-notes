@@ -3,6 +3,8 @@
 Insights from Inside Google That Will Transform How You Live and Lead
 by Laszlo Bock
 
+from https://www.getabstract.com/
+
 ## Review
 
 Google attracts, motivates and retains some of the world’s top talent. Once it hires these stars, they usually thrive. Google’s head of “People Operations,” Laszlo Bock, explains nine rules Google uses that you can follow to transform your organization in its model from a company that controls employees to one that sets them free to innovate, make improvements and inspire one another. If you’ve read about or researched Google’s management methods, you already know most of the methods here for motivating and retaining employees. But if you’re new to the Google way, this will provide good background knowledge. To say the least, Bock is a company man. Google can do no wrong by him. He presents its nine rules as a kind of gospel, and he doesn’t address any internal contradictions, or any contradictions at all between Google’s rules and its actions. Of course, no workplace anywhere is as wonderful as Bock paints Google to be, but you can’t argue with its success. Bock asserts that Google’s philosophy stems from founders Sergey Brin’s and Larry Page’s decision to make talent their first priority. To retain the people it hires, Google provides stock ownership, benefits, freedom, autonomy and inclusion. By describing Google’s singular, rational and absurdly effective HR approach in detail – and by telling you how it fits together – Bock offers a valuable tool for leaders at every level in all industries. getAbstract recommends Google’s rules of engagement to HR managers, entrepreneurs, owners of small businesses and executives of all kinds.

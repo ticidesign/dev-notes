@@ -1,4 +1,4 @@
-# Claen Code
+# Clean Code
 
 "Clean code always reads like well-written prose." - Grady Booch's description of clean code
 
