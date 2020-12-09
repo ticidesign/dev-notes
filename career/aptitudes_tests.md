@@ -29,15 +29,13 @@ Sokanu is a free platform for users to assess their interests, personality type,
 [Myers-Briggs (MBTI)](www.discoveryourpersonality.com)
 This is one of the top rated instruments to help assess your personality type and explore career options. If you're a college graduate, check to see if your career office offers no-cost testing for alumni.
 
-Career Key
+[Career Key](https://www.careerkey.org)
 This online career assessment tool determines how similar you are to six different personality types. The results are linked to occupational choices.
-https://www.careerkey.org
 
-Personality Tests
-Jung Typology Test
+**Personality Tests**
+
+[Jung Typology Test](www.humanmetrics.com/personality)
 Click to select an answer for 70 Yes or No questions to get your personality type formula according to Carl Jung and Isabel Briggs Myers typology, along with the strengths of the preferences, a description of your personality type, and a list of occupations that are most suitable for your personality type.
-www.humanmetrics.com/personality
 
-Keirsey Temperament Sorter
+[Keirsey Temperament Sorter](https://www.keirsey.com)
 The Keirsey Temperament Sorter, another top-rated test, helps you discover what type of temperament you have and tells you if you're an Artisan, Guardian, Rational or Idealist (free description, option to purchase full report).
-https://www.keirsey.com
