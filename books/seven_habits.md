@@ -103,6 +103,7 @@ In an old yarn, a man is sawing a log. The work is going slowly and the man is e
 Effective people take care of their bodies with a program of exercise that combines endurance, flexibility and strength. It’s easy to plan such a program, and you don’t have to join a gym to implement it. Effective people care for their souls with prayer and meditation, if they are inclined to a religiously-grounded spirituality, or perhaps by reading great literature or listening to great music. Never neglect this spiritual dimension; it provides the energy for the rest of your life.
 
 “Most people do not listen with the intent to understand; they listen with the intent to reply.”
+
 Mental repair may mean changing your habits, such as the habit of watching television. Television watching encourages passive absorption of values, attitudes and dispositions that dull the mind. Read, work puzzles, do math or engage in some challenging activity to keep your mind alert, active and engaged.
 
 The heart refers to emotions, which depend greatly on others. Work to develop your heart, your emotional connections and your engagement with other people. Communicate, listen and be undemanding. In everything you do, try to make others better off and put them first. By doing so, you’ll transform yourself into a highly effective person.

@@ -31,3 +31,7 @@
 - Functions do one thing, and the only way to really be sure that a function does one thing is to **Extract Till You Drop**. If you can extract one function from another, you should, because that original function was, by definition, doing more than one thing.
 
 Video [https://vimeo.com/channels/1111213/12643301](https://vimeo.com/channels/1111213/12643301)
+
+Resources
+[wojteklu/clean_code.md](https://gist.github.com/wojteklu/73c6914cc446146b8b533c0988cf8d29)
+[The essence of "Clean Code"](http://www.inf.fu-berlin.de/inst/ag-se/teaching/K-CCD-2014/Clean-Code-summary.pdf)
