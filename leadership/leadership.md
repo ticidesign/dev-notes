@@ -17,3 +17,5 @@ Top leaders should learn:
 - Meetings will become more effective and productive
 - Create Stronger Leadership and Ownership
 - Higher Profits Through Optimised Performance
+
+[Why Women Don’t Advance into Senior Leadership and What To Do About It: Janice Fraser, Leading Design 2017](https://vimeo.com/243653969)
