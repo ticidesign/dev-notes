@@ -147,9 +147,9 @@ The 3 things that the engine does to help us out is [Speculative optimization](h
 
 [JavaScript Performance Course Exercises](https://github.com/stevekinney/web-performance)
 
-`node --trace-opt --trace-deopt`
+`$node --trace-opt --trace-deopt`
 
-`node --allow-natives-syntax`
+`$node --allow-natives-syntax`
 
 Example
 
@@ -167,9 +167,73 @@ add(3, "4"); // Deoptimize the fucntion as params have a string now.
 
 - We use an interpreter because the optimizing compiler is slow to get started.
 - Also it need some information before it knows what work it can either optimize or skip out on all together.
-- So the interpreter start gatherign feedback about what it sees as the function is used.
+- So the interpreter start gathering feedback about what it sees as the function is used.
 
-The optimizing compiler optimizes for what it's seen. If it sees something new, that's problematic.
+The optimizing compiler optimizes for what it's seen. If it sees something new, that's problematic.If you just have number, it optimize for number, but if some strings are introduced it deoptimize.
+
+There is potential performance gains when using any type of static type checker for JavaScript like Flow or Typescript. This will make sure you are always passing the same type to the function.
+
+JavaScript is a dynamic language, but JavaScript keeps track of types under the hood. Functions can be optimized for the types of object's they've seen in the past. There is a few types of **\*-morphism**:
+
+- **Monomorphism:** This is all I know and all that I've sen. I can get incredibly fast at this one thing
+- **Polymorphism**: I've seen a few shapes before. LEt me just check to see which one and then I'll go do the fast thing.
+- **Megamorphism**: I've seen things. A lot of things. I'm not particularly specialized. Sorry.
+
+**Hidden classes in V8**
+
+It turns out there is a secret system behing your back, the [hidden classes in V8](https://stackoverflow.com/questions/47580935/v8-hidden-classes-for-two-objects-of-the-same-type-are-not-the-same-if-property.
+
+Compare objects created in different ways to see if they have the same hidden class:
+
+`$node --allow-natives-syntax`
+
+```js
+const a = { a: 1 };
+const b = { a: 1 };
+
+console.log(%HaveSameMap(a, b)); //true
+
+a.x = 456;
+console.log(%HaveSameMap(a, b)); //false
+
+b.x = 100;
+console.log(%HaveSameMap(a, b)); //true
+```
+
+```js
+const a = { a: 1 };
+const b = Object.assign({}, a);
+const c = Object.assign({}, a);
+
+console.log(%HaveSameMap(a, b)); //false (because it was created differently using Object.assign)
+console.log(%HaveSameMap(b, c)); //true
+```
+
+```js
+class Point {
+  constructor(x, y) {
+    this.x = x;
+    this.y = y;
+  }
+}
+
+const a = new Point(1, 2);
+const b = new Point(3, 4);
+
+console.log(%HaveSameMap(a, b)); //true
+```
+
+**Dinamic lookup**: This object could be anything, so let me look at the rule book and figure this out.
+
+Some takeaway
+
+- Turbofan is able to optimize your code in substantial ways if you pass it consistent values.
+- Initialize your properties at creation
+- Initialize them in the smae order
+- Try not to modify them after the fact
+- Maybe just use TypeScript or Flow so you don't have to worry about these things!
+
+**Function inline**
 
 ### Rendering performance
 

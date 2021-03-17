@@ -1,5 +1,9 @@
 # Resources
 
+[Amazon Leardership Principles](https://www.amazon.jobs/en/principles)
+
+[Jeff Bezos' Shareholder Letters. All of them](https://founders.simplecast.com/episodes/jeff-bezos-shareholder-letters-all-of-t-hAgb6DJ6)"To read Bezos’ shareholder letters is to get a crash course in running a high-growth internet business from someone who mastered it before any of the playbooks were written."
+
 HBR’s 10 Must Reads on Leadership - Volume One
 
 1. [What Makes a Leader by Daniel Goleman](https://hbr.org/2004/01/what-makes-a-leader)

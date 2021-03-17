@@ -1,5 +1,7 @@
 # End to end testing with Cypress
 
+https://egghead.io/courses/end-to-end-testing-with-cypress
+
 The tools available for unit testing have come a long way. While testing may never be “easy”, the available tools have certainly moved testing closer to the simple end of the spectrum. Full end to end testing hasn’t quite kept the same pace and as a result many applications are testing manually and often by users in production. Cypress provides a testing environment that makes end-to-end testing fast and reliable with a simple API that makes creating automated unit tests for your web applications a no-brainer.
 
 Testing applications in a real browser is incredibly valuable.

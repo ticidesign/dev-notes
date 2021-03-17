@@ -1,6 +1,5 @@
 # Resources
 
-
 ## Faster Safely
 
 **Feedback Loops and High-Quality Feedback**

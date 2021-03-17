@@ -42,3 +42,11 @@ RAIL https://web.dev/rail/
 [Why Perceived Performance Matters, Part 1: The Perception Of Time](https://www.smashingmagazine.com/2015/09/why-performance-matters-the-perception-of-time/)
 
 [21 Performance Optimization Techniques for React Apps](https://www.codementor.io/blog/react-optimization-5wiwjnf9hj)
+
+[perf-tooling.today Start performance tooling today](https://www.perf-tooling.today/)
+
+## Videos
+
+[GOTO 2020 • Did We(b Development) Lose the Right Direction? • Stefan Judis](https://www.youtube.com/watch?v=0Vtoblyq8fE)
+
+[Systems @Scale 2019 New York recap](https://engineering.fb.com/2019/10/15/networking-traffic/systems-scale-2019/)
