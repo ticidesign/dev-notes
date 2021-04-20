@@ -101,7 +101,7 @@ _Late initialized properties_
 - Do not want to mark them as Nullable
 - Use 'lateinit' instead
 
-Example
+### Examples
 
 ```kotlin
 package com.rsk.kotlin
@@ -159,4 +159,93 @@ interface ISaveable {
 class Address {}
 ```
 
-_Summary_
+## Annotations
+
+Kotlin understands annotation `@Nullable`, `@NotNull` from javax.annotation, android.support.annotation, org.jetbrains.annotation.
+
+If there are no annotations, kotlin will work with 'Platform' type and it's the developer full responsability for doing `null` checks.
+
+Platform types are hidden but you can see then in error messages
+
+```kotlin
+val i: Int = person.name
+ERROR: Type mismatch: inferred type is String! but Int was expected
+```
+
+## Overriding Java Methods
+
+What about overriding Java Types? Can make the parameters Nullable or not.
+
+### Examples
+
+Meeting.java
+
+```java
+package com.rsk.java;
+
+import org.jetbrains.annotations.NotNull;
+import org.jetbrains.annotations.Nullable;
+
+public class Meeting {
+    private String title;
+
+    public void addTitle(@NotNull String title) {
+        this.title = title;
+    }
+
+    public @Nullable String meetingTitle() {
+        return title;
+    }
+
+    public String titleCanBeNull() {
+        return title;
+    }
+}
+```
+
+Address.java
+
+```java
+package com.rsk.java;
+
+public interface Address {
+    String getFirstAddress();
+}
+```
+
+Organizer.kt
+
+```kotlin
+package com.rsk.kotlin
+
+import com.rsk.java.Address
+import com.rsk.java.Meeting
+
+fun main(args: Array<String>) {
+    val m = Meeting()
+//    m.addTitle("Title")
+//    m.addTitle(null)
+
+//    val title: String? = m.meetingTitle()
+//    println(title)
+    val title: String = m.titleCanBeNull() ?: "nobody"
+    println(title)
+}
+class HomeAddress : Address {
+    override fun getFirstAddress(): String {
+        return ""
+    }
+}
+
+class WorkAddress : Address {
+    override fun getFirstAddress(): String? {
+        return ""
+    }
+}
+```
+
+## Summary
+
+- Kotlin has excellent Java interoperability
+- Works with annotated types
+- And non-annotated (Platform) types
