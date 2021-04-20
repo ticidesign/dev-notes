@@ -6,11 +6,14 @@
 - Can have named parameters
 - Can 'extend' existing types
 
-_Declaring a functions_
+_Declaring functions_
 
 ```kotlin
 fun connect(addr : URI) : Boolean {
 }
+
+val action: () -> Unit = { println("Hello, World")}
+val calc: (Int, Int) -> Int = { x, y -> x*y}
 ```
 
 _Function Expressions_
@@ -28,6 +31,14 @@ How are top level functions compiled?
 package rsk;
 
 fun connect(addr : URI) : Boolean {
+}
+
+
+fun <T> first(items: List<T>, predicate: (T) -> Boolean) : T {
+    for(item in items) {
+        if(predicate (item)) return item
+    }
+    throw Exception()
 }
 ```
 
@@ -219,7 +230,7 @@ h3 = h1 + h2
 
 ```kotlin
 fun main(args: Array<String>) {
-    println(fib(10000, BigInteger("1"), BigInteger("0")))// no stackoverflow on big numer
+    println(fib(10000, BigInteger("1"), BigInteger("0")))// no stackoverflow on big number
 }
 tailrec fun fib(n: Int, a:BigInteger, b: BigInteger) : BigInteger {
     return if (n==0) b else fib(n-1, a+b, a)

@@ -139,6 +139,33 @@ fun main(args: Array<String>) {
 }
 ```
 
+_inline functions_
+
+- Not every function can be inlined
+- if lamdba is used directly then it can be inlined
+- lambda cannot be stored in a variable for later use
+- in kotlin all collections operations are inlined (map, filter, etc)
+- excepted the same operations on sequences are not inlined
+
+```kotlin
+package com.rsk
+
+fun main() {
+    val ints = listOf(1,2,3,4,5)
+    val i = first(ints) { i -> i == 3 }
+    println(i)
+}
+
+inline fun <T> first(items: List<T>, predicate: (T) -> Boolean) : T {
+    for(item in items) {
+        if(predicate (item)) return item
+    }
+    throw Exception()
+}
+```
+
+High-order funstions give us great fexibility, however there can be performance overhead. To get around this, we can use inlining, but remember that not all calls can be inlined.
+
 _Summary_
 
 - Kotlin has support for 'first-class' functions
