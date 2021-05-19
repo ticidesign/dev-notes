@@ -77,7 +77,24 @@ Another example
 Flight.java
 
 ```java
-
+class Flight {
+    int passengers, seats = 150, totalCheckedBags;
+    public void add1Passenger() {
+        if(hasSeating()) {
+            passengers +=1;
+        }
+    }
+    //overloading with additional functionality
+    public void add1Passenger(int bag) {
+        if(hasSeating()) {
+            add1Passenger();
+            totalCheckedBags += bags;
+        }
+    }
+    private boolena hasSeating() {
+        retrun passengers < seats;
+    }
+}
 
 ```
 
