@@ -1,22 +1,27 @@
 # How to spar
 
 ## Why do we spar?
+
 - To get a range of feedback from the whole team. To ultimately make the work better
 - To keep the rest of the team across everything that is being worked on
 
 ## How do we build a level of context?
+
 - Work needs to be sparred from very early conceptual stage to give the team the context they need to provide useful input.
 - This is to prevent getting superficial feedback
 - Don't bring work at 'signoff' stage to sparring unless it has been seen earlier - this is just a waste of time.
 
 ## Context stages - what to show when
+
 Every stage of a project is important and can benefit from sparring. Here's the sort of things you might be able to bring along for sparring at each stage:
+
 - Early conceptual - sketches and descriptions
 - Prototyping - wireframes / mockups / prototypes
 - Building - experiments and results
 - Polish - hi fidelity mockups / screenshots
 
 ## How to prepare
+
 - Get your work together - preferably printed and on the wall.
 - Update the agenda. Think about:
 - The back story to this work - how did you get to this point?
@@ -26,6 +31,7 @@ Every stage of a project is important and can benefit from sparring. Here's the 
 - Grab some Post it notes and a sharpy
 
 ## How to spar - Our sparring manifesto
+
 1. Come prepared.
 2. We work as a team. Sparring is not a competition or the place for wit or cleverness.
 3. Aim to be positive and supportive. Build rather than deconstruct.
@@ -40,7 +46,9 @@ Every stage of a project is important and can benefit from sparring. Here's the 
 12. Don't forget to update the sparring page with items related to your work after the sparring.
 
 ## Poster
+
 **How to spar**
+
 1. Come prepared
 2. We work as a team
 3. Be positive and supportive
@@ -51,7 +59,7 @@ Every stage of a project is important and can benefit from sparring. Here's the 
 8. Park things quickly
 9. A different person goes first each time
 10. Everybody must spar at least once every 2 weeks
-11. Use post it notes to document discussion 
+11. Use post it notes to document discussion
 12. Update the page after sparring
 
 ## Resources

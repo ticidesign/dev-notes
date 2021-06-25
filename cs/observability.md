@@ -160,3 +160,11 @@ Cause based alerts are the underlying causes, which may (or may not) end up impa
 - new software push is causing ACLs (Access Control Lists) to be forgotten
 
 Our guidance is to alert based on user impact i.e. symptoms, and not causes (within reason).
+
+## Observability: Metrics Terminology
+
+### Overview
+
+We’ll be going through some terminology, naming conventions, and cardinality.
+
+In our metrics pipeline diagram below, this page talks about part 1 where metrics are being emitted from a service.

@@ -6,6 +6,8 @@
 
 [A Leader’s Framework for Decision Making](https://hbr.org/2007/11/a-leaders-framework-for-decision-making) by David J. Snowden and Mary E. Boone
 
+[Being Glue](https://noidea.dog/glue)
+
 HBR’s 10 Must Reads on Leadership - Volume One
 
 1. [What Makes a Leader by Daniel Goleman](https://hbr.org/2004/01/what-makes-a-leader)
@@ -31,3 +33,7 @@ HBR’s 10 Must Reads on Leadership - Volume Two
 8. [How CEOs Manage Time by Michael E. Porter and Nitin Nohria](https://hbr.org/2018/07/how-ceos-manage-time)
 9. [The Best Leaders Are Great Teachers by Sydney Finkelstein](https://hbr.org/2018/01/the-best-leaders-are-great-teachers)
 10. [Nimble Leadership by Deborah Ancona, Elaine Backman, and Kate Isaacs](https://hbr.org/2019/07/nimble-leadership)
+
+[Atlassian Ignite Leadership program](https://inkling.group/program/atlassian-ignite-may2021/) - [Case Study](https://inkling.group/wp-content/uploads/2018/09/Inkling_Ignite-Case-Study.Atlassian-2016-compressed.pdf)
+
+[The engineer/manager pendulum](https://charity.wtf/2017/05/11/the-engineer-manager-pendulum/)
