@@ -12,4 +12,4 @@ Typescript improve readability with typescript numeric separators when working w
 
 [ts-ast-viewer](https://ts-ast-viewer.com/)
 
-[Typescript fun exercises](https://typescript-exercises.github.io/#exercise=1&file=%2Findex.ts)
+[Typescript fun exercises](https://typescript-exercises.github.io)
