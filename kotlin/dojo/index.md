@@ -1,5 +1,16 @@
 # Kotlin Dojo
 
+Ensemble programming:
+
+- 2 primary roles:
+    - Driver
+        - Smart interface to computer
+        - Entering code
+    - Navigator
+        - Give instructions to driver when they are ready
+        - Talk to driver in highest level of abstraction they can understand
+        - Think out loud!
+
 - Kotlin best practices
 - Spring best practices
 - Ensemble Programming
@@ -17,6 +28,15 @@
 - Synchronous vs Asynchronous
 - SQS
 - StreamHub
+
+### Kotlin practice
+
+- Extension functions, used for clean type conversion
+- MockK library
+    - Relaxed
+- Function styles `{}` (side effects, no return value) vs `=` (expressions)
+- Coroutines (sorta) - need more review/practice
+- `let` vs `it`
 
 Barbel
 
@@ -60,8 +80,14 @@ Run: `docker run --name <some-redis> -d -p 6379:6379 redis`
 
 ## Kotlin Spring
 
-- Never use [`@Autowired`](https://www.baeldung.com/spring-autowire), anti-pattern, it's terrible (probably just ok for tests)
+- `@Configuration` class for default injection
+- Class `@Profile`, for testing vs non testing
+- `RequestContextHolder` get attributes, set attributes & scope
+- Never use [`@Autowired`](https://www.baeldung.com/spring-autowire), anti-pattern, it's terrible (probably just ok for tests). It can create circular dependencies . Okay in integration tests?
 - Never have more than 5 dependencies in the constructor. If there is more, consider split the compoment!
+- Don’t use injection when using things within the same package. Inject when using classes from other packages.
+- Integration testing
+- Polling (`@EnableScheduling`), `@Scheduled` function 
 
 ## Deploy Barbel
 
@@ -93,7 +119,9 @@ write permission granted successfully
 
 [Streamhub](https://developer.atlassian.com/platform/streamhub/getting-started/)
 
-30/04-21
+30/04/21
 
 [@EnableScheduling / @Scheduled](https://spring.io/guides/gs/scheduling-tasks/)
 [Atlassian Micros - Lifecycle Hooks](https://hello.atlassian.net/wiki/spaces/MICROS/pages/169248561/Lifecycle+hooks)
+
+
