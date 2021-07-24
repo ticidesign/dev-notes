@@ -7,3 +7,5 @@
 [The Self-aware Coach](https://www.futurelearn.com/courses/self-aware-coach)
 
 [Kim Scott on Radical Candor](https://www.youtube.com/watch?v=uWG_fnDvy4s)
+
+[Getting Hired](https://www.theodinproject.com/paths/full-stack-javascript/courses/getting-hired)
