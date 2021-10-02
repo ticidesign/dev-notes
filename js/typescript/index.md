@@ -1,15 +1,21 @@
 ## Typescript
 
-Typescript improve readability with typescript numeric separators when working with large numbers
+Typescript improve readability with typescript numeric separators when working with large numbers.
 
-#### Example
+- Compiles to readable JS
+- Three parts: Language, Language Server and Compiler
+- Kind of like a fancy linter
 
-```js
-
+```ts
+let car: {
+  make: string
+  model: string
+  year: number
+  chargeVoltage?: number // Optional
+}
 ```
 
-### Resources
 
-[ts-ast-viewer](https://ts-ast-viewer.com/)
-
-[Typescript fun exercises](https://typescript-exercises.github.io)
+- [Types Categories](./type-categories.md)
+- [Functions](./functions.md)
+- [Resources](./resources.md)
