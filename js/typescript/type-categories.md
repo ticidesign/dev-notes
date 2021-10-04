@@ -1,6 +1,5 @@
 # Types Categories
 
-
 ## Index signatures
 
 Sometimes we need to represent a type for dictionaries, where values of a consistent type are retrievable by keys.
@@ -69,11 +68,9 @@ const [first, second] = outcome
 if (second instanceof Error) {
   // In this branch of your code, second is an Error
   second
-  // ^?
 } else {
   // In this branch of your code, second is the user info
   second
-  // ^?
 }
 ```
 
@@ -176,19 +173,141 @@ isJSON(undefined)
 isJSON(new BigInt(143))
 // @ts-expect-error
 isJSON(isJSON)
-
-
 ```
+
+## Top Types
+
+A [top type](https://en.wikipedia.org/wiki/Top_type) (symbol: `⊤`) is a type that describes any possible value allowed by the system. To use our set theory mental model, we could describe this as `{x| x could be anything }`
+
+TypeScript provides two of these types: `any` and `unknown`.
+
+`any`
+
+You can think of values with an `any` type as “playing by the usual JavaScript rules”. Here’s an illustrative example:
 
 ```ts
-interface TwoNumberCalculation {
-  (x: number, y: number): number
+let flexible: any = 4
+flexible = "Download some more ram"
+flexible = window.document
+flexible = setTimeout
+```
+
+`unkwon`
+
+Like any, unknown can accept any value:
+
+```ts
+let flexible: unknown = 4
+flexible = "Download some more ram"
+flexible = window.document
+flexible = setTimeout
+```
+However, `unknown` is different from `any` in a very important way:
+
+    Values with an unknown type cannot be used without first applying a type guard
+
+## Bottom Types
+
+A [bottom type](https://en.wikipedia.org/wiki/Bottom_type) (symbol: `⊥`) is a type that describes no possible value allowed by the system. To use our set theory mental model, we could describe this as “any value from the following set: `{ }`(intentionally empty)”
+
+TypeScript provides one bottom type: `never`.
+
+```ts
+function obtainRandomVehicle(): any {
+  return {} as any
+}
+class Car {
+  drive() {
+    console.log("vroom")
+  }
+}
+class Truck {
+  tow() {
+    console.log("dragging something")
+  }
+}
+class Boat {
+  isFloating() {
+    return true
+  }
+}
+type Vehicle = Truck | Car | Boat
+
+let myVehicle: Vehicle = obtainRandomVehicle()
+
+class UnreachableError extends Error {
+  constructor(_nvr: never, message: string) {
+    super(message)
+  }
 }
 
-type TwoNumberCalc = (x: number, y: number) => number
-
-const add: TwoNumberCalculation = (a, b) => a + b
-//                                 ^?
-const subtract: TwoNumberCalc = (x, y) => x - y
-//                               ^?
+// The exhaustive conditional
+if (myVehicle instanceof Truck) {
+  myVehicle.tow() // Truck
+} else if (myVehicle instanceof Car) {
+  myVehicle.drive() // Car
+} else {
+  // NEITHER!
+  throw new UnreachableError(
+    myVehicle,
+    `Unexpected vehicle type: ${myVehicle}`
+  )
+}
 ```
+
+## Type guards and narrowing
+
+- Built-in type guards: `typeof` and `instanceof`.
+
+```ts
+let value:
+  | Date
+  | null
+  | undefined
+  | "pineapple"
+  | [number]
+  | { dateRange: [Date, Date] }
+
+// instanceof
+if (value instanceof Date) {
+  value //let value: Date
+}
+// typeof
+else if (typeof value === "string") {
+  value //let value: "pineapple"
+}
+// Specific value check
+else if (value === null) {
+  value //let value: null
+}
+// Truthy/falsy check
+else if (!value) {
+  value //let value: undefined
+}
+// Some built-in functions
+else if (Array.isArray(value)) {
+  value //let value: [number]
+}
+// Property presence check
+else if ("dateRange" in value) {
+  value //let value: { dateRange: [Date, Date]; }
+} else {
+  value //let value: never
+}
+```
+
+- User-defined type guards: `value is Foo` and `asserts value is Foo`
+
+## Nullish values
+
+`null`
+
+null means: there is a value, and that value is nothing. While some people believe that null is not an important part of the JS language, I find that it’s useful to express the concept of a “nothing” result (kind of like an empty array, but not an array).
+
+`undefined`
+
+undefined means the value isn’t available (yet?)
+
+`void`
+
+void should exclusively be used to describe that a function’s return value should be ignored
