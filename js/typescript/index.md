@@ -15,7 +15,6 @@ let car: {
 }
 ```
 
-
 - [Types Categories](./type-categories.md)
 - [Functions](./functions.md)
 - [Generics](./generics.md)
