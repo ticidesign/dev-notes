@@ -1,5 +1,7 @@
 # Resources
 
+[LeadDev Together](https://events.leaddev.com/together)
+
 [Amazon Leardership Principles](https://www.amazon.jobs/en/principles)
 
 [Jeff Bezos' Shareholder Letters. All of them](https://founders.simplecast.com/episodes/jeff-bezos-shareholder-letters-all-of-t-hAgb6DJ6) <br> "To read Bezos’ shareholder letters is to get a crash course in running a high-growth internet business from someone who mastered it before any of the playbooks were written."
