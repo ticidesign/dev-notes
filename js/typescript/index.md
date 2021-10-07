@@ -18,4 +18,6 @@ let car: {
 
 - [Types Categories](./type-categories.md)
 - [Functions](./functions.md)
+- [Generics](./generics.md)
+- [Conditional Types](./conditional-type.md)
 - [Resources](./resources.md)

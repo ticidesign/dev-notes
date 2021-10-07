@@ -19,3 +19,5 @@ Top leaders should learn:
 - Higher Profits Through Optimised Performance
 
 [Why Women Don’t Advance into Senior Leadership and What To Do About It: Janice Fraser, Leading Design 2017](https://vimeo.com/243653969)
+
+[LeadDev Together](https://events.leaddev.com/together)
