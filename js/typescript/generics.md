@@ -28,3 +28,5 @@ wrapInArray(new RegExp("/s/")) // function wrapInArray<RegExp>(arg: RegExp): [Re
 ```
 
 ## Scopes and Constraints
+
+Generic constraints allow us to describe the “minimum requirement” for a type param, such that we can achieve a high degree of flexibility, while still being able to safely assume some minimal structure and behavior.

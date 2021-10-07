@@ -311,3 +311,11 @@ undefined means the value isn’t available (yet?)
 `void`
 
 void should exclusively be used to describe that a function’s return value should be ignored
+
+`Non-null assertion operator`
+
+The non-null assertion operator (`!.`) is used to cast away the possibility that a value might be null or undefined.
+
+`Definite assignment operator`
+
+The definite assignment `!:` operator is used to suppress TypeScript’s objections about a class field being used, when it can’t be proven1 that it was initialized.
