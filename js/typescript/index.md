@@ -28,7 +28,7 @@ let car: {
 - [Resources](./resources.md)
 
 
-how to type `forwardRef` with components that has an `as` props ie, `as='p'`
+How to type `forwardRef` with components that has an `as` props ie, `as='p'`
 [Forwarding refs for a polymorphic React component in TypeScript](https://www.benmvp.com/blog/forwarding-refs-polymorphic-react-component-typescript/)
 
 ```ts
@@ -67,8 +67,6 @@ export const forwardRefWithAs = <DefaultElementType extends ElementType, BasePro
 For use cases such as creating new types through things like primitives, union types, and tuple types, use the `type` keyword. For anything else (objects/arrays), it’s an `interface`.
 
 An `interface` is extremely helpful when dealing with data structures as they’re a very visual representation (albeit so is `type`). It’s completely okay to choose a `type` for your objects and arrays too.
-
-
 
 ## Classes vs Interfaces in TypeScript
 

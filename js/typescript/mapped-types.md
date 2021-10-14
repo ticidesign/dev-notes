@@ -114,3 +114,19 @@ type ArtMethodNames =
   `paint${Capitalize<Colors>}${Capitalize<ArtFeatures>}`
   // type ArtMethodNames = "paintDarkSiennaCabin" | "paintDarkSiennaTree" | "paintDarkSiennaSunset" | "paintSapGreenCabin" | "paintSapGreenTree" | "paintSapGreenSunset" | "paintTitaniumWhiteCabin" | ... 4 more ... | "paintPrussianBlueSunset"
 ```
+
+## Filtering properties out
+
+```ts
+// Get keys of type T whose values are assignable to type U
+type FilteredKeys<T, U> = { [P in keyof T]: T[P] extends U ? P : never }[keyof T] & keyof T;
+
+type RelevantDocumentKeys = FilteredKeys<Document, (...args: any[]) => (Element | Element[])>
+
+
+type ValueFilteredDoc = Pick<Document, RelevantDocumentKeys>
+
+function load(doc: ValueFilteredDoc) {
+  doc.querySelector('input')
+}
+```
