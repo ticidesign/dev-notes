@@ -1,5 +1,7 @@
 # Resources
 
+[Learn CSS](https://web.dev/learn/css/)
+
 [CSS Selectors Cheatsheet](https://frontend30.com/css-selectors-cheatsheet/)
 
 [CSS Battles](https://cssbattle.dev/)
