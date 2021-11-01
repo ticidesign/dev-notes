@@ -47,6 +47,22 @@ type Record<K extends keyof any, T> = {
 // keyof any (string | number | symbol)
 ```
 
+
+```ts
+type IntemHash = {
+  [key: string]: Item;
+};
+//same as
+Record<string, Item>
+
+type Dictionary = {
+  [key: number]: string;
+};
+//same as
+Record<numbe, string>
+
+```
+
 ## Pick
 
 ```ts
