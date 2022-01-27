@@ -20,6 +20,8 @@ Under-represented communities in tech operate with more ingrained compassion and
 
 [Include](https://www.include.io/)
 
+[Hire Tech Ladies](https://www.hiretechladies.com/)
+
 [Latinas in Computing](http://latinasincomputing.org/)
 
 [LaunchCode](https://www.launchcode.org/)
@@ -39,3 +41,5 @@ Under-represented communities in tech operate with more ingrained compassion and
 [Women in AI](https://www.womeninai.co/)
 
 [Women Who Code](https://www.womenwhocode.com/)
+
+[Women Techmakers](https://www.womentechmakers.com/)
