@@ -9,3 +9,5 @@
 [Why flow matters more than passion](https://leaddev.com/culture-engagement-motivation/why-flow-matters-more-passion)
 
 [Mentoring junior engineers - Supporting early-career engineers to become tomorrow's leaders.](https://leaddev.com/series/mentoring-junior-engineers)
+
+[Managers Should Optimize Job Satisfaction, Not Happiness](https://staysaasy.com/management/2021/12/14/Happy.html)
