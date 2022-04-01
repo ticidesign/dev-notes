@@ -39,3 +39,11 @@ HBR’s 10 Must Reads on Leadership - Volume Two
 [Atlassian Ignite Leadership program](https://inkling.group/program/atlassian-ignite-may2021/) - [Case Study](https://inkling.group/wp-content/uploads/2018/09/Inkling_Ignite-Case-Study.Atlassian-2016-compressed.pdf)
 
 [The engineer/manager pendulum](https://charity.wtf/2017/05/11/the-engineer-manager-pendulum/)
+
+[The Leader’s Guide to Corporate Culture](https://hbr.org/2018/01/the-leaders-guide-to-corporate-culture)
+
+[Tips For Managing Personality Differences At Work](https://girlsintech.org/tips-for-managing-personality-differences-at-work/)
+
+[Is the Company You’re Interviewing with Actually Inclusive?](https://hbr.org/2021/12/is-the-company-youre-interviewing-with-actually-inclusive)
+
+[To Sound Like a Leader, Think About What You Say, and How and When You Say It](https://hbr.org/2017/10/to-sound-like-a-leader-think-about-what-you-say-and-how-and-when-you-say-it)
