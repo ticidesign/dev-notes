@@ -1,4 +1,4 @@
-# Resources 
+# Resources
 
 [The VIA Character Strengths Survey](https://www.viacharacter.org/survey/account/register)
 
@@ -11,3 +11,5 @@
 [Mentoring junior engineers - Supporting early-career engineers to become tomorrow's leaders.](https://leaddev.com/series/mentoring-junior-engineers)
 
 [Managers Should Optimize Job Satisfaction, Not Happiness](https://staysaasy.com/management/2021/12/14/Happy.html)
+
+[100 FREE Resources to Start and Grow Your Engineering Management Career](https://eisabainyo.net/weblog/100-free-resources-to-start-and-grow-your-engineering-management-career/)

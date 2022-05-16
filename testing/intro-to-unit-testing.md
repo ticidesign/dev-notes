@@ -33,7 +33,7 @@ Now one thing to think about before we start, when looking at storybook stories 
 
 So looking at the above list our `Implementations` are essentially variations of the base component where as the `Interactions` are what happens when a user does something on the page. Another way to think about it is what happens if it fails?
 
-*e.g.* Implementation of `light` fails === tooltip still renders just not with the light styling. A problem yes but the component is still 'working' at a base level. However, if the `default / disable` functionality does not work then we have a fatal flaw for that component. If it does not render, or does not respect the `disable` prob then that is a much deeper problem in the component itself.
+_e.g._ Implementation of `light` fails === tooltip still renders just not with the light styling. A problem yes but the component is still 'working' at a base level. However, if the `default / disable` functionality does not work then we have a fatal flaw for that component. If it does not render, or does not respect the `disable` prob then that is a much deeper problem in the component itself.
 
 ## Implementation
 
@@ -44,9 +44,17 @@ So in this example with `tooltip` we will make 2 'base' components as there is a
 This will be our base component where we have the implementation option of passing the `disabled` prop.
 
 ```typescript
-const ToolTipComponent = ({disableHoverListener = false}: {disableHoverListener?: boolean}) => {
+const ToolTipComponent = ({
+  disableHoverListener = false,
+}: {
+  disableHoverListener?: boolean;
+}) => {
   return (
-    <Tooltip appearance="dark" content="This is a tooltip" disableHoverListener={disableHoverListener}>
+    <Tooltip
+      appearance="dark"
+      content="This is a tooltip"
+      disableHoverListener={disableHoverListener}
+    >
       <button type="button">
         <p>Hover here</p>
       </button>
@@ -58,11 +66,20 @@ const ToolTipComponent = ({disableHoverListener = false}: {disableHoverListener?
 Our next component is the custom event handler where again we are building this with that implementation
 
 ```typescript
-const ToolTipCustomEventComponent = ({disableHoverListener = false}: {disableHoverListener?: boolean}) => {
+const ToolTipCustomEventComponent = ({
+  disableHoverListener = false,
+}: {
+  disableHoverListener?: boolean;
+}) => {
   const [isOpen, setIsOpen] = React.useState(false);
   return (
     <>
-      <Tooltip appearance="dark" content="This is a tooltip" open={isOpen} disableHoverListener={disableHoverListener}>
+      <Tooltip
+        appearance="dark"
+        content="This is a tooltip"
+        open={isOpen}
+        disableHoverListener={disableHoverListener}
+      >
         <button type="button">
           <p>Hover here</p>
         </button>
@@ -75,36 +92,36 @@ const ToolTipCustomEventComponent = ({disableHoverListener = false}: {disableHov
 };
 ```
 
-***Note:*** There may be a question going back to [[Cascade Unit Test Introduction#Interaction Vs Implementation | Interaction Vs Implementation]] as we discussed above, we said we do not want to test implementation details we want to test interactions, but then our components above are implementations of that. Well below we will go through how that will work.
+**_Note:_** There may be a question going back to [[Cascade Unit Test Introduction#Interaction Vs Implementation | Interaction Vs Implementation]] as we discussed above, we said we do not want to test implementation details we want to test interactions, but then our components above are implementations of that. Well below we will go through how that will work.
 
 ## Execution
 
 Ok so now we have our notes on what we want to test, we have our implementations we can go about writing our tests, from the note above the components we have built are the `implementation`. However as you will see in the tests bellow we are actually only worried about the result of the `interaction` with that implementation.
 
 ```typescript
-it('Tooltip should render on hover', async () => {
-    render(<ToolTipComponent />);
-    fireEvent.mouseOver(screen.getByRole('button'));
-    expect(await screen.findByText('This is a tooltip')).toBeInTheDocument();
-  });
-  
-it('Tooltip should not render on hover if disabled', async () => {
-    render(<ToolTipComponent disableHoverListener />);
-    fireEvent.mouseOver(screen.getByRole('button'));
-    expect(screen.queryByText('This is a tooltip')).not.toBeInTheDocument();
-  });
+it("Tooltip should render on hover", async () => {
+  render(<ToolTipComponent />);
+  fireEvent.mouseOver(screen.getByRole("button"));
+  expect(await screen.findByText("This is a tooltip")).toBeInTheDocument();
+});
+
+it("Tooltip should not render on hover if disabled", async () => {
+  render(<ToolTipComponent disableHoverListener />);
+  fireEvent.mouseOver(screen.getByRole("button"));
+  expect(screen.queryByText("This is a tooltip")).not.toBeInTheDocument();
+});
 ```
 
 The above test should make it a little clearer when it comes to the `Interaction vs Implementation` discussion. While our tests are calling those implementation based components, we are only testing that the result remains the same, for example if you added the `light` or `withoutArrow` prop to the `ToolTipComponent` implementation the tests would still pass. If someone came along and refactored to change `light` to be called `lighter` or do something else when that prop was passed, or someone removed `withoutArrow` all together the test would still pass.
 
 ```typescript
-it('Tooltip should render ONLY on custom button event', async () => {
-    render(<ToolTipCustomEventComponent />);
-    fireEvent.mouseOver(screen.getByText('Hover here'));
-    expect(screen.queryByText('This is a tooltip')).not.toBeInTheDocument();
-    fireEvent.click(screen.getByText('Click to open tooltip'));
-    expect(await screen.findByText('This is a tooltip')).toBeInTheDocument();
-  });
+it("Tooltip should render ONLY on custom button event", async () => {
+  render(<ToolTipCustomEventComponent />);
+  fireEvent.mouseOver(screen.getByText("Hover here"));
+  expect(screen.queryByText("This is a tooltip")).not.toBeInTheDocument();
+  fireEvent.click(screen.getByText("Click to open tooltip"));
+  expect(await screen.findByText("This is a tooltip")).toBeInTheDocument();
+});
 ```
 
 This final test around working with a custom event handler adds a little check at the start where we try to hover, this makes sure the `tooltip` is not behaving in the default manner and will only be triggered by the custom event. In this test were covering both parts that

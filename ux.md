@@ -7,3 +7,5 @@
 [The good project](https://www.thegoodproject.org/)
 
 [Nine New Nasty UX Truths](https://medium.com/radical-ux/nine-new-nasty-ux-truths-82e7f988066a)
+
+[Design Technologist Handbook](https://designtechnologist.club/book/)

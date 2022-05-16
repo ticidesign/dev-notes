@@ -26,13 +26,15 @@
 
 [Ethan Marcotte's Design Systems reading list](https://ethanmarcotte.com/wrote/my-design-systems-reading-list/)
 
+[zagjs - UI components powered by Finite State Machines](https://zagjs.com/)
+
 ## Learning
 
 [Learn Design System](https://www.learndesignsystem.com/)
 
 [Design System Course in Figma by Design+Code](https://designcode.io/design-system-figma)
 
-[Design systems pro video series—Master product design at scale with Brad Frost, Dan Mall, and Josh Clark](https://www.invisionapp.com/design-system-manager/expert-advice)
+[Design systems pro video series — Master product design at scale with Brad Frost, Dan Mall, and Josh Clark](https://www.invisionapp.com/design-system-manager/expert-advice)
 
 [Introduction to Design Systems](https://fem-design-systems.netlify.app)
 
@@ -47,6 +49,10 @@
 [Extending Atomic Design from Brad FrostBrad Frost](http://bradfrost.com/blog/post/extending-atomic-design/)
 
 [Design Tokens through a GraphQL interface](https://github.com/my-slab/design-tokens-graphql)
+
+[Tooltips in the time of WCAG 2.1](https://sarahmhigley.com/writing/tooltips-in-wcag-21/)
+
+[Pressability Tutorial](https://github.com/facebook/react-native/blob/8bd3edec88148d0ab1f225d2119435681fbbba33/Libraries/Pressability/Pressability.js#L372)
 
 ## Meetup
 
