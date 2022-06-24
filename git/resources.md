@@ -1,5 +1,7 @@
 # Resources
 
+[Learn Git Branching](https://learngitbranching.js.org/)
+
 [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/)
 
 [Git Commit Messages](http://karma-runner.github.io/5.0/dev/git-commit-msg.html)
