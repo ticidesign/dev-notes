@@ -10,35 +10,35 @@ I have listed the free online platforms you can use on different stages:
 
 Coding Platforms:
 
-- [LeetCode](https://www.linkedin.com/company/leet-code/)
-- [GeeksforGeeks](https://www.linkedin.com/company/geeksforgeeks/)
-- [InterviewBit](https://www.linkedin.com/company/interviewbit/)
-- [binarysearch](https://www.linkedin.com/company/binarysearch/)
-- [CodeChef](https://www.linkedin.com/company/codechef/)
-- [HackerRank](https://www.linkedin.com/company/hackerrank/)
-- [HackerEarth](https://www.linkedin.com/company/hackerearth/)
-- [CodeForces](https://www.linkedin.com/company/codeforces01/)
-- [Topcoder](https://www.linkedin.com/company/topcoder/)
-- [CodeSignal](https://www.linkedin.com/company/codesignal/)
+- [LeetCode](https://leetcode.com/)
+- [GeeksforGeeks](https://www.geeksforgeeks.org)
+- [InterviewBit](https://www.interviewbit.com/)
+- [binarysearch](https://binarysearch.com/)
+- [CodeChef](https://www.codechef.com/)
+- [HackerRank](https://www.hackerrank.com/)
+- [HackerEarth](https://www.hackerearth.com/))
+- [CodeForces](https://codeforces.com/)
+- [Topcoder](https://www.topcoder.com/)
+- [CodeSignal](https://codesignal.com/)
 
 Virtual Mock interviews:
 
-- [InterviewBit](https://www.linkedin.com/company/interviewbit/)
-- [Pramp](https://www.linkedin.com/company/pramp/)
+- [InterviewBit](https://www.interviewbit.com/)
+- [Pramp]((https://www.pramp.com))
 - [interviewing.io](http://interviewing.io/)
 
 Interview experiences:
 
-- [LeetCode](https://www.linkedin.com/company/leet-code/)
-- [GeeksforGeeks](https://www.linkedin.com/company/geeksforgeeks/)
+- [LeetCode](https://leetcode.com/)
+- [GeeksforGeeks](https://www.geeksforgeeks.org)
 
 Compensation details / Reviews:
 
-- [Glassdoor](https://www.linkedin.com/company/glassdoor/)
-- [AmbitionBox](https://www.linkedin.com/company/ambition-box/)
-- [Levels.fyi](https://www.linkedin.com/company/levels-fyi/)
-- [LeetCode](https://www.linkedin.com/company/leet-code/)
+- [Glassdoor](https://www.glassdoor.com.au/)
+- [AmbitionBox](https://www.ambitionbox.com/)
+- [Levels.fyi](https://www.levels.fyi/)
+- [LeetCode](https://leetcode.com/)
 
 Company Insights:
 
-- [Crunchbase](https://www.linkedin.com/company/crunchbase/)
+- [Crunchbase](https://www.crunchbase.com/)
