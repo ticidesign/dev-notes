@@ -28,6 +28,8 @@
 
 [zagjs - UI components powered by Finite State Machines](https://zagjs.com/)
 
+[Creating the Perfect Design System Style Guide Site](https://www.youtube.com/watch?v=fURrvrmx8Xw)
+
 ## Learning
 
 [Learn Design System](https://www.learndesignsystem.com/)
