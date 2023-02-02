@@ -10,6 +10,8 @@
 
 [Robogals](https://robogals.org/) workshops for kids when I was at uni. It was super fun, and the kids always loved it!
 
+[Teaching kids programming](https://teachingkidsprogramming.org/)
+
 ## Toys
 
 [Lego Mindstorms](https://www.lego.com/en-au/themes/mindstorms) to teach kids programming in a creative, interactive way.'
