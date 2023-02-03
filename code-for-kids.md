@@ -12,6 +12,14 @@
 
 [Teaching kids programming](https://teachingkidsprogramming.org/)
 
+Here are some resources designed for children:
+
+- [https://projects.raspberrypi.org/en/projects](https://projects.raspberrypi.org/en/projects)
+
+- [https://microbit.org/projects/](https://microbit.org/projects/)
+
+- [https://www.tynker.com/](https://www.tynker.com/)
+
 ## Toys
 
 [Lego Mindstorms](https://www.lego.com/en-au/themes/mindstorms) to teach kids programming in a creative, interactive way.'
