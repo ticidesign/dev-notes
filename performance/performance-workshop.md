@@ -128,31 +128,31 @@ Work to make sure performance is part of every team's culture.
 
 ## Future
 
-Offence - work to help us improve our performanc
-Defence - work that will stop us from regressing our performance
+Offense - work to help us improve our performance
+Defense - work that will stop us from regressing our performance
 
-**Focus Areas for Defence**
+**Focus Areas for Defense**
 
-- Standardised metrics: everyone is speaking the same language, easy to rollout standard tools. (Browser Metrics V3 / BM V3 only uses Gas V3 pipelines)
-- Performance portal: a tailored experience to make it eaier to understand performance.
+- Standardized metrics: everyone is speaking the same language, easy to rollout standard tools. (Browser Metrics V3 / BM V3 only uses Gas V3 pipelines)
+- Performance portal: a tailored experience to make it easier to understand performance.
 - Pre-production check: stop regression from reaching production.
 
 FMP = TTR (TPC)
 
-**Focus Areas for Offence**
+**Focus Areas for Offense**
 
 What about the Frontend?
 
 - **Improve Platform Perf:** frontend services (SSR), SPA shell, building improvements
 - **New platform Capabilities:** loading phases, SPA prefetching and caching.
-- **Dependency Managment:** getting on the release train, reducing duplicate components in FE
-- **Improving TTFB** ([time to frist byte](https://web.dev/time-to-first-byte/)): can we start downloading content sooner?
+- **Dependency Management:** getting on the release train, reducing duplicate components in FE
+- **Improving TTFB** ([time to first byte](https://web.dev/time-to-first-byte/)): can we start downloading content sooner?
 
 What about the Backend?
 
-- **Decomposition:** new services that optimise for read views of experiences at scale.
-- **Improve DB usage:** optimise DB usage in code, caching of common queries.
-- **Consist GraphQL Schema:** optimised schema for performance when acessing issue and field data.
+- **Decomposition:** new services that optimize for read views of experiences at scale.
+- **Improve DB usage:** optimize DB usage in code, caching of common queries.
+- **Consist GraphQL Schema:** optimized schema for performance when accessing issue and field data.
 
 Slack channels: #jira-cloud-perf | #jira-spa | #jira-frontend-perf
 
@@ -191,7 +191,7 @@ Other competitors:
 
 Findings:
 
-- They are using virtualisation
+- They are using virtualization
 - Ranking using a popup with a form
 - Board uses pagination with a ‘show more items’
 -
@@ -209,6 +209,6 @@ Findings:
 [Understanding how work/issues are distributed - Board & Backlog views](https://hello.atlassian.net/wiki/spaces/agile/pages/808009605/Understanding%2Bhow%2Bwork%2Bissues%2Bare%2Bdistributed%2B-%2BBoard%2BBacklog%2Bviews)
 
 Interesting case of communication about performance wins in Twitter web app (they recently released modern bundles) https://twitter.com/CharlieCroom/status/1291478104016289799
-There are follow up tweets how they make it possible - babel config, browser recognition etc - wondering if sharing it that way is "better" than tech blogpost or if would be even better when both
+There are follow up tweets how they make it possible - babel config, browser recognition etc - wondering if sharing it that way is "better" than tech blog post or if would be even better when both
 
 Recap board for end of day: https://templates.atlassian.net/jira/software/projects/TPWR/boards/59
