@@ -134,4 +134,9 @@ git log --oneline --graph --all --decorate
 git config --global alias.lol "log --oneline --graph --all --decorate"
 ```
 
+## Squash all commits into one
+```sh
+git config --global alias.gisquash 'git reset --soft HEAD~$(git rev-list --count HEAD ^master)'
+```
+
 More [here](https://www.youtube.com/watch?v=ZDR433b0HJY)
