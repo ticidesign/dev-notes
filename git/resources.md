@@ -4,6 +4,8 @@
 
 [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/)
 
+[Conventional Comments](https://conventionalcomments.org/)
+
 [Git Commit Messages](http://karma-runner.github.io/5.0/dev/git-commit-msg.html)
 
 [Gitkraken](https://www.gitkraken.com/)
